@@ -1,0 +1,571 @@
+[
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b26006b2"
+    },
+    "subject": "URGENT: Production environment down - Cloud Management",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T08:00:00Z",
+    "message_body": "Our production environment hosted on your cloud management platform is currently down. This is a major outage impacting all of our customers. We need this resolved ASAP. \n\nCan you please provide an ETA and keep us updated on the situation? ",
+    "thread_id": "aa006-4d2b2e6a-569f-4a3f-9956-18c621e81a7c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.3488
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b260070e"
+    },
+    "subject": "URGENT: Production Down - IAM and Cloud Integration Failure",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T08:52:00Z",
+    "message_body": "Our production environment is currently down. We're experiencing a critical issue where our cloud resources are inaccessible due to what seems like an IAM authentication failure.  We cannot deploy any hotfixes and our monitoring systems are also impacted. This is causing a major outage for our services. We need immediate assistance to resolve this issue.\n\nWe suspect there might be a problem with the latest IAM role permissions update we made yesterday. Please advise on the best course of action to restore our systems ASAP.",
+    "thread_id": "aa007-72f2629b-4619-403b-8967-48939912f54c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.6958
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600821"
+    },
+    "subject": "URGENT: Production Down - IAM and Cloud Integration Failure",
+    "sender": "john.doe@examplecompany.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T09:07:00Z",
+    "message_body": "Our production environment is currently down due to an issue integrating Aetheros IAM with our cloud resources. We are experiencing authentication failures across all applications. This is a critical issue impacting our business operations. We need immediate assistance to resolve this issue as soon as possible.",
+    "thread_id": "aa008-8e50c341-a38c-4722-9034-4c4f24e475b2",
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service",
+      "Cloud Management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.4274,
+    "email_types": [
+      "issue"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b26006b3"
+    },
+    "subject": "Re: URGENT: Production environment down - Cloud Management",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-06-12T09:32:00Z",
+    "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you are experiencing a critical issue with your production environment on our cloud management platform. \n\nWe have escalated this to our highest priority and our engineers are actively investigating the cause of the outage. We will keep you updated on the situation and provide an ETA for resolution as soon as possible.\n\nSincerely,\nAetheros Support Team",
+    "thread_id": "aa006-4d2b2e6a-569f-4a3f-9956-18c621e81a7c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.3488
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600822"
+    },
+    "subject": "Re: URGENT: Production Down - IAM and Cloud Integration Failure",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@examplecompany.com",
+    "timestamp": "2024-06-12T10:00:00Z",
+    "message_body": "Thank you for contacting Aetheros Support. We understand you're experiencing a critical issue.  We've received your request and are currently looking into it. Can you please provide us with your Aetheros account ID and a brief description of any recent changes made to your IAM or Cloud Management configurations?",
+    "thread_id": "aa008-8e50c341-a38c-4722-9034-4c4f24e475b2",
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service",
+      "Cloud Management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.4274,
+    "email_types": [
+      "issue"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600823"
+    },
+    "subject": "Re: URGENT: Production Down - IAM and Cloud Integration Failure",
+    "sender": "john.doe@examplecompany.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T10:49:00Z",
+    "message_body": "Our account ID is atttached. We haven't made any recent changes to our IAM configuration. We did, however, update our cloud infrastructure two days ago to scale up our server capacity.",
+    "thread_id": "aa008-8e50c341-a38c-4722-9034-4c4f24e475b2",
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service",
+      "Cloud Management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.4274,
+    "email_types": [
+      "issue"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b260070f"
+    },
+    "subject": "Re: URGENT: Production Down - IAM and Cloud Integration Failure",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-06-12T11:33:00Z",
+    "message_body": "Thank you for contacting Aetheros Support. We understand your production environment is facing a critical outage, and we're here to help.\n\nWe've received your request and escalated it to our senior engineers. They are currently investigating the issue with the IAM service and its integration with your cloud resources. We'll provide updates as soon as we have more information.\n\nIn the meantime, could you please share the following details to aid our investigation:\n\n* Timestamp of when the issue first occurred\n* Any recent changes made to your IAM roles or policies\n* Error messages you are encountering",
+    "thread_id": "aa007-72f2629b-4619-403b-8967-48939912f54c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.6958
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b26006b4"
+    },
+    "subject": "Re: URGENT: Production environment down - Cloud Management",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T12:11:00Z",
+    "message_body": "This is unacceptable. Our business is severely impacted by this outage. We need a concrete update and ETA now.",
+    "thread_id": "aa006-4d2b2e6a-569f-4a3f-9956-18c621e81a7c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.3488
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b2600710"
+    },
+    "subject": "Re: URGENT: Production Down - IAM and Cloud Integration Failure",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T13:06:00Z",
+    "message_body": "Issue first occurred around 02:00 AM UTC.  We updated IAM roles at around 10:00 PM UTC yesterday following your documentation for restricting access to specific cloud resources. Since then everything was working fine until the outage. We are seeing error messages related to unauthorized access when trying to access our resources via the CLI and also in deployment logs.",
+    "thread_id": "aa007-72f2629b-4619-403b-8967-48939912f54c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.6958
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008ca"
+    },
+    "subject": "Urgent: Our Production API is Down! (Cloud Deployment Issue)",
+    "sender": "john.doe@examplecompany.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T13:40:00Z",
+    "message_body": "Our production API, which is managed on your Cloud Management platform, is currently down. We believe this is related to the recent deployment we made through your system. We are experiencing a complete outage and this is severely impacting our business operations. Please advise ASAP on how to resolve this issue.",
+    "thread_id": "aa008-387694e0-c95d-416c-a80a-39047575b4af",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.7787
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb66"
+    },
+    "subject": "URGENT: Production API Down - Authentication Failure",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T14:25:00Z",
+    "message_body": "Our production API is currently down.  We are seeing widespread authentication failures. This is a critical issue as it's impacting all our customers. We are using Aetheros for API development, Cloud Management, and your IAM service. Please advise ASAP.",
+    "thread_id": "aa011-e8c489fb-456a-489d-a23e-867393898c47",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API development",
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.8751
+  },
+  {
+    "_id": {
+      "$oid": "66607f2cf018b325b2600628"
+    },
+    "subject": "Urgent: Production Down - Cloud Instance Unresponsive",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T15:24:00Z",
+    "message_body": "Our production environment hosted on your cloud platform is completely down. We can't access our main application server. We've tried rebooting but are encountering errors. This is a critical issue impacting our business operations. Please advise ASAP.",
+    "thread_id": "aa005-98d56158-5a38-48d3-9493-7d1a710a9428",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": -0.1412
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458e6"
+    },
+    "subject": "URGENT: Production API Down - Massive Service Disruption",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T15:26:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "API development",
+      "Mercury language"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.2478,
+    "thread_id": "aa012-5d97a49f-028b-47d2-a345-e47926691587",
+    "message_body": "Our production API, built using your Mercury language and hosted on your cloud platform, has gone down completely.  We are experiencing a massive service disruption and are losing customers by the minute.  This is impacting revenue significantly. We need this fixed IMMEDIATELY. Please advise on the next steps ASAP."
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008be"
+    },
+    "subject": "Urgent: Production Outage - Database Cluster Unreachable",
+    "sender": "devon.becker@dubuque.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T16:07:00Z",
+    "message_body": "Our production environment is experiencing a major outage. We are unable to connect to our database cluster managed through your Cloud Management platform. \n\nWe have checked our network configurations and firewall settings, but the issue persists. Our monitoring tools indicate that the database instances are completely offline.\n\nThis outage is severely impacting our operations. We need immediate assistance to resolve this issue.\n\nPlease provide an update as soon as possible.",
+    "thread_id": "aa008-73f0a105-561f-499b-9a6a-01d1032a936f",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud Management"
+    ],
+    "agent_effectivity": 0.1,
+    "agent_efficiency": 0.95,
+    "customer_satisfaction": 0.5906
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b26006f6"
+    },
+    "subject": "URGENT: Mercury Deployment Failing in Production - Project Phoenix",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T16:51:00Z",
+    "message_body": "We are experiencing a critical issue with deploying our Mercury application for Project Phoenix to our production environment managed through Aetheros Cloud. The deployment process consistently fails with error code M104, which the documentation doesn't clarify. \n\nThis is a high-priority issue as it's preventing a major release. We need immediate assistance to resolve this. \n\nPlease advise on the meaning of error code M104 and provide troubleshooting steps. Our team is standing by to provide any information needed.",
+    "thread_id": "aa007-89e0aec7-2593-4432-9338-629a5858a9a2",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Mercury Language",
+      "Cloud Management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": "-0.6758"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb93"
+    },
+    "subject": "URGENT: API Monitoring - Spikes and Downtime",
+    "sender": "isabella.rodriguez@quantaneo.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T17:50:00Z",
+    "message_body": "Our team has been experiencing severe spikes and intermittent downtime on API endpoints monitored through Aetheros since approximately 2:00 AM EST. This is causing major disruption to our live services. \n\nWe need immediate assistance to identify the root cause and resolve this issue. Please advise on next steps ASAP.",
+    "thread_id": "aa011-4d2f3f65-4c7d-468c-a8d4-9828e6b93472",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.0342
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b26006a4"
+    },
+    "subject": "URGENT: API Monitoring Alert Storm - Production Impacted",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T18:47:00Z",
+    "message_body": "We're experiencing a massive spike in alerts from the Aetheros API Monitoring platform for our production APIs.  It seems to be related to our recent cloud resource scaling that you manage for us. We need immediate assistance to understand if this is a real issue or a false positive, and how to resolve it.  Our entire platform is severely impacted.",
+    "thread_id": "aa006-7c47631f-f287-4543-963b-81630b334a2d",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.6265
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b26006c2"
+    },
+    "subject": "URGENT: Production Environment Down - Cloud Management",
+    "sender": "john.smith@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T18:58:00Z",
+    "message_body": "Our production environment is currently down. We are experiencing a major outage and believe it's related to the Cloud Management service. We've tried restarting the affected instances, but the issue persists. This is causing significant disruption to our business operations. Please advise ASAP on the next steps to resolution.",
+    "thread_id": "aa006-e345d678-9a2b-4c1f-a87e-0d954234f567",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud Management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.4981
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdc5b"
+    },
+    "subject": "URGENT: Production API Down - Cloud Servers Unresponsive",
+    "sender": "john.doe@examplecompany.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T19:25:00Z",
+    "message_body": "Our production API is currently down. We are experiencing a complete outage. The issue seems to be related to our cloud servers managed by Aetheros. We are unable to access the servers, and our monitoring tools show them as offline. This is a critical issue impacting our business operations. Please advise ASAP.",
+    "thread_id": "aa011-34e342e3-7878-4a4a-a1a1-121212121212",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.9056
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb545828"
+    },
+    "subject": "URGENT: Security Group Issue Blocking Production Deployment",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-12T19:43:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.0377,
+    "thread_id": "aa012-83fd7e5f-8a74-422f-9a1a-10444d902e27",
+    "message_body": "Our team is attempting to deploy a critical update to our production environment, but we are encountering a persistent issue related to an IAM role and a security group managed through Aetheros Cloud. \n\nThe deployment process is failing because the IAM role assigned to our application instances does not have the necessary permissions to access resources within the designated security group. \n\nWe have verified that the security group is configured correctly and the necessary ingress rules are in place. However, the IAM role still does not seem to have the required permissions to access resources within the security group. \n\nThis is a high-priority issue as it is preventing us from deploying essential updates to our production environment. We require immediate assistance to resolve this problem and get our deployment back on track.\n\nPlease let us know what steps need to be taken to resolve this issue as soon as possible."
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b260075a"
+    },
+    "subject": "Urgent: Production System Down - Cloud Instance Unreachable",
+    "sender": "Malcolm Yates <myates@example.net>",
+    "receiver": "Aetheros Support <support@aetheros.com>",
+    "timestamp": "2024-06-12T20:41:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.0579,
+    "thread_id": "aa007-123e4567-e89b-12d3-a456-426614174000",
+    "message_body": "Our production system is currently down. We are unable to access our cloud instances managed through Aetheros. \n\nWe are seeing error messages indicating a potential network outage. This is a critical issue as it is impacting our live services and causing significant disruption to our operations.\n\nPlease advise on the status and estimated time for resolution."
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb67"
+    },
+    "subject": "Re: URGENT: Production API Down - Authentication Failure",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-06-12T21:29:00Z",
+    "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand the urgency of the situation and are prioritizing your issue. We have identified a recent configuration change within our IAM service that might be causing the authentication failures.  \n\nOur engineers are actively working on a fix. We will keep you updated on the progress.\n\nSincerely,\nAetheros Support Team",
+    "thread_id": "aa011-e8c489fb-456a-489d-a23e-867393898c47",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API development",
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.8751
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b26006a5"
+    },
+    "subject": "Re: URGENT: API Monitoring Alert Storm - Production Impacted",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-06-12T21:41:00Z",
+    "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand that you are experiencing a critical issue with the API Monitoring platform following a recent cloud resource scaling. Our team is actively investigating the issue and will provide an update as soon as possible.\n\nIn the meantime, please provide us with the following information so we can better assist you:\n\n* The specific APIs affected.\n* The approximate time the issue began.\n* Any recent changes made to your cloud environment.\n\nWe will do everything we can to resolve this issue as quickly as possible.\n\nSincerely,\nAetheros Support",
+    "thread_id": "aa006-7c47631f-f287-4543-963b-81630b334a2d",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.6265
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdc5c"
+    },
+    "subject": "Re: URGENT: Production API Down - Cloud Servers Unresponsive",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@examplecompany.com",
+    "timestamp": "2024-06-12T22:40:00Z",
+    "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand the urgency of the situation and are actively investigating the issue with your cloud servers and API outage. We will provide you with an update shortly.\n\nSincerely,\nAetheros Support Team",
+    "thread_id": "aa011-34e342e3-7878-4a4a-a1a1-121212121212",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.9056
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb94"
+    },
+    "subject": "Re: URGENT: API Monitoring - Spikes and Downtime",
+    "sender": "support@aetheros.com",
+    "receiver": "isabella.rodriguez@quantaneo.com",
+    "timestamp": "2024-06-12T23:10:00Z",
+    "message_body": "Dear Isabella,\n\nThank you for contacting Aetheros Support. We understand the urgency of this situation and are actively investigating the reported spikes and downtime affecting your API endpoints.\n\nWe will keep you updated on our progress. In the meantime, could you please provide us with the specific API endpoints experiencing issues and any relevant error messages or logs?\n\nSincerely,\nThe Aetheros Support Team",
+    "thread_id": "aa011-4d2f3f65-4c7d-468c-a8d4-9828e6b93472",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.0342
+  }
+]

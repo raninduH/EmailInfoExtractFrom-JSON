@@ -1,0 +1,564 @@
+[
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b2600776"
+    },
+    "subject": "Urgent: IAM Role Issue Impacting Mercury API Development",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T08:00:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe are experiencing an issue with our IAM roles that is preventing our developers from accessing the necessary resources to compile our Mercury code. \n\nSpecifically, developers with the 'Mercury Developer' role are receiving authorization errors when attempting to compile code that interacts with our 'PaymentProcessing' API. \n\nWe have verified that the 'Mercury Developer' role should have the correct permissions according to our IAM policy. \n\nThis issue is causing significant delays in our development cycle. We need this resolved as soon as possible.\n\nPlease advise on how to proceed.\n\nThanks,\nJohn Doe",
+    "thread_id": "aa007-123e4567-e89b-12d3-a456-426614174000",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.2204
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b26007b2"
+    },
+    "subject": "Scaling Issues with Cloud Resources",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T08:31:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.3783,
+    "thread_id": "aa007-7e04008a-e61c-4414-9a82-f8a54a188d31",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing some difficulties scaling our cloud resources effectively through your platform. Our application experiences significant slowdowns during peak hours, and we believe it's related to resource limitations. \n\nCould you please advise on how to best diagnose and address this issue?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b26007a6"
+    },
+    "subject": "Urgent Help Needed: Mercury Language Integration Issues",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T08:47:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been trying to integrate Mercury language into our existing API infrastructure for the past few days, but we're encountering some roadblocks. Specifically, we're facing challenges with:\n\n1. **Data Type Compatibility:** Our existing system relies heavily on custom data structures. We're struggling to find clear documentation on how to seamlessly map these structures with Mercury's native data types.\n2. **Error Handling:** The error messages we're receiving during compilation and runtime are quite cryptic. It's difficult to pinpoint the root cause of the errors and debug them efficiently.\n\nWe're hoping for some guidance and potential solutions to these problems. Our project timeline is tight, so any assistance you can provide would be greatly appreciated.\n\nBest regards,\nJohn Doe\nLead Developer, XYZ Corp",
+    "thread_id": "aa007-f8a6d46f-6090-4d67-a581-d4882140d489",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.6055
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b26007a9"
+    },
+    "subject": "Suggestion for API Monitoring Dashboard Enhancements",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T09:34:00Z",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring",
+      "Cloud management"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.0796,
+    "thread_id": "aa007-6e533e5e-0a18-4c36-8c88-0c12a632787b",
+    "message_body": "Hi Aetheros Support Team,\n\nI'm writing to suggest some improvements to the API Monitoring dashboard. While the current dashboard provides a good overview, I believe adding the following features would greatly enhance its usability:\n\n1. **Customizable Time Range Presets:** It would be very helpful to have the ability to set custom time range presets (e.g., last 30 minutes, last 6 hours) beyond the default options.\n2. **API Grouping and Filtering:**  With a large number of APIs being monitored, it becomes difficult to navigate and find specific data. Implementing API grouping and advanced filtering options would be highly beneficial.\n3. **Alert Threshold Visualization:** Visually representing alert thresholds directly on the performance graphs would provide a clearer understanding of API health at a glance.\n\nI believe these enhancements would significantly improve the user experience and provide greater insights into API performance.\n\nThank you for considering my suggestions.\n\nSincerely,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26007fc"
+    },
+    "subject": "High Latency on API Gateway Since Cloud Migration",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T10:16:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe recently migrated our application infrastructure to Aetheros Cloud and have been experiencing significantly higher latency on our API gateway ever since.\n\nBefore the migration, our average API response time was around 50ms. Now, we're seeing spikes up to 500ms, causing noticeable slowdowns for our users.\n\nWe've checked our application code and confirmed it's not the source of the problem. We suspect it might be related to the API gateway configuration in the new cloud environment.\n\nCould you please investigate this issue urgently and help us identify the root cause of the increased latency?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-3d1a554d-b4c1-423d-90e4-97698d779c19",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "API monitoring"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.0703
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b260081d"
+    },
+    "subject": "Intermittent Latency Spikes on Cloud-Hosted App",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T11:00:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent latency spikes with our web application hosted on your cloud platform. The issue appears randomly and affects different parts of the application.\n\nWe've checked our application logs but haven't found anything conclusive. Could you please investigate and advise on potential causes and solutions?\n\nApplication Name: MyApp\nAccount ID:  7894561230\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-6e3cfff8-717c-4429-960f-e027192a340a",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud Management"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.8777
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600869"
+    },
+    "subject": "Mercury Language Documentation Question",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T11:51:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language",
+      "API monitoring"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.4838,
+    "thread_id": "aa008-8675309a-1234-5678-9abc-def012345678",
+    "message_body": "Hi Aetheros Support,\n\nI'm having trouble finding clear documentation on how to implement custom error handling in Mercury. Specifically, I want to define my own error types and have them integrate with the API monitoring. Can you point me in the right direction?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008a1"
+    },
+    "subject": "Scaling Issues with Our Cloud Resources",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T12:50:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing some difficulties scaling our cloud resources effectively through your platform.  Specifically, we're seeing:\n\n* Slow response times during peak hours\n* Difficulty adjusting resource allocation on demand\n\nCould you please advise on how we can troubleshoot this? We're using the standard configuration provided during onboarding.\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-4c82a88f-80e1-4f6c-8716-d1c7e9e1a959",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management",
+      "API development"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.2761
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b260091a"
+    },
+    "subject": "Question about Mercury Language Error Handling",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T13:33:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm working on a project using Mercury and having some trouble understanding the best practices for error handling. Specifically, I'm unsure how to implement a try-catch equivalent in my code. \n\nCould you point me to some documentation or examples on how to handle errors gracefully in Mercury?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa009-837492a1-c35d-4d88-82e2-4a5919bb274b",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.3446
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b2600918"
+    },
+    "subject": "Suggestion for Mercury Language and Cloud Management Integration",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T14:24:00Z",
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud Management",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.9693,
+    "thread_id": "aa009-7e0424b3-600c-481e-956b-3b5868d40749",
+    "email_types": [
+      "suggestion"
+    ],
+    "message_body": "Dear Aetheros Support Team,\n\nI am writing to suggest a deeper integration between Mercury language and your Cloud Management service.\n\nCurrently, while Mercury offers streamlined API development, deploying and managing those APIs on your Cloud Management platform requires switching contexts and tools. It would be incredibly beneficial if we could manage cloud resources (like scaling, deployment pipelines, etc.) directly within Mercury code. \n\nFor example, annotations or specific library functions in Mercury could be used to define scaling triggers or automate deployment processes directly tied to the codebase. This would streamline our workflow, reduce potential errors, and make the entire development lifecycle smoother.\n\nThank you for considering this suggestion. I believe it would significantly improve the developer experience and unlock new possibilities for leveraging both Mercury and Aetheros Cloud Management to their full potential.\n\nSincerely,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b260092b"
+    },
+    "subject": "Question about User Role Inheritance",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T14:51:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe're using your IAM service and are a bit confused about how user role inheritance works. Specifically, if a user is assigned to a role that inherits permissions from another role, but then we directly deny one of those inherited permissions to the user, will that take precedence?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa009-550e8400-e29b-41d4-a716-446655440000",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": 0.1,
+    "agent_efficiency": 0.9,
+    "customer_satisfaction": -0.1015
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b260093f"
+    },
+    "subject": "Scaling Issue and Role Permission Inconsistencies",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T15:45:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been encountering two issues lately:\n\n1. **Scaling Issues:** Our application experiences significant slowdown during peak hours, even with the auto-scaling configured in your cloud management platform. It seems like the scaling isn't triggering quickly enough to handle the load.\n\n2. **IAM Role Permissions:** We're facing inconsistencies with our custom roles and permissions in the IAM service. Some users with seemingly correct permissions are unable to access specific resources. This is causing disruptions in our workflow.\n\nCould you please look into these matters urgently? \n\nThanks,\nJohn Doe",
+    "thread_id": "aa009-f81d4fae-7dec-11ed-a88c-0242ac120002",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.5808
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b2600939"
+    },
+    "subject": "High Latency on API Endpoint /products",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T16:23:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API development",
+      "API monitoring"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.7889,
+    "thread_id": "aa009-3e24608b-2d43-498f-a88a-620a70180e7b",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent high latency on our /products API endpoint. This endpoint was developed by your team using the Mercury language.\n\nThe latency spikes seem to occur randomly and last for a few hours before returning to normal. We've checked our end, and everything seems to be fine.\n\nWe're using your API monitoring platform and can see the latency spikes reflected there. Could you please help us investigate and resolve this issue?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b260092d"
+    },
+    "subject": "API Monitoring - Irregular Latency Spikes",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T16:33:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm experiencing some irregular latency spikes with my API being monitored through your platform.  Most of the time, response times are great, but I'm seeing intermittent spikes up to several seconds. \n\nCould you help me investigate what might be causing this?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa009-37d809a3-206d-4683-a386-5b09d768a641",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.8233
+  },
+  {
+    "_id": {
+      "$oid": "666202d61b4284eae85bdada"
+    },
+    "subject": "Scaling Issue with Cloud Resources - Instance Optimization Request",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T17:17:00Z",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.3356,
+    "thread_id": "aa010-a1b2c3d4-e5f6-7890-1234-567890abcdef",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing some performance issues related to scaling our cloud resources during peak hours. We're using your Cloud Management service and believe there might be room for optimization in our instance configurations.\n\nCould you please advise on best practices for optimizing our instances to handle peak load more efficiently? \n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202d61b4284eae85bdaec"
+    },
+    "subject": "Suggestion for API Development: Enhancements for Error Handling",
+    "sender": "isabella.wilson@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T17:30:00Z",
+    "message_body": "Dear Aetheros Support Team,\n\nI'm writing to suggest some enhancements for the error handling in your API development services.\n\nWhile I find the overall API development experience quite good, I believe providing more detailed error messages and standardized error codes would be incredibly helpful. This would make it much easier for developers to troubleshoot and debug integrations.\n\nFor instance, instead of a generic 500 error, a more specific code indicating the nature of the issue (e.g., database connection error, authorization failure) would be highly beneficial. Additionally, including relevant details in the error message, such as the specific database query or configuration parameter that caused the issue, would further expedite the debugging process.\n\nI believe implementing these improvements would significantly enhance the developer experience and streamline the integration process.\n\nThank you for considering my suggestion.\n\nSincerely,\nIsabella Wilson",
+    "thread_id": "aa010-4d8d284d-0249-4e54-a3e0-1a115f3e7e46",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.7025
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb06"
+    },
+    "subject": "Mercury Language Documentation Issue",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T17:47:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.2737,
+    "thread_id": "aa011-4d2e34c9-2a15-4a6a-90d4-25d61d785e2b",
+    "message_body": "Hello Aetheros Support,\n\nI'm having trouble finding clear documentation on how to implement custom error handling in Mercury Language. The examples in the current documentation seem to be outdated and don't work with the latest version I'm using.\n\nCould you please point me to the correct resources or provide some updated examples?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb10"
+    },
+    "subject": "API Monitoring - Weird spike in latency",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T18:44:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm seeing a strange spike in latency for one of my APIs being monitored by your platform.  It started around 9:30 AM EST today.  Nothing has changed on my end, so I'm wondering if there might be a platform issue?\n\nAPI Name: ProductCatalogAPI\n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-7e09375b-f296-4008-8646-9a61d68422a4",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": 0.3063
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb2f"
+    },
+    "subject": "Urgent Issue: API Monitoring Data Discrepancies and Mercury Language Errors",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T18:46:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.8629,
+    "thread_id": "aa011-550e8400-e29b-41d4-a716-446655440000",
+    "message_body": "Hello Aetheros Support,\n\nWe are facing critical issues with both the API Monitoring service and the Mercury Language. \n\nFirstly, we are seeing significant discrepancies between the data reported in the API Monitoring dashboard and our internal logs. This is impacting our ability to accurately track API performance and identify potential issues.\n\nSecondly, we're encountering persistent errors when using specific functions within the Mercury Language. These errors are halting our development process and causing significant delays.\n\nWe require urgent assistance to resolve these issues as they are severely impacting our operations. Please provide a timely resolution.\n\nRegards,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb39"
+    },
+    "subject": "API Monitoring Dashboard Delay",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T18:54:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing a significant delay on our API monitoring dashboard for the past few hours.  The data being displayed seems to be lagging behind real-time by at least 30 minutes, which is impacting our ability to monitor our API performance effectively.\n\nCould you please look into this issue and advise on a resolution?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-f4b2287b-6e08-4706-a81a-9c71a2564d7a",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.148
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb42"
+    },
+    "subject": "Inconsistent Data in API Monitoring Dashboard",
+    "sender": "isabella.rodriguez@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T19:13:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.514,
+    "thread_id": "aa011-e828287c-d28c-4420-b49d-84980e81223a",
+    "message_body": "Hi Aetheros Support,\n\nI'm experiencing some discrepancies in the data displayed on the API Monitoring dashboard for our application. Specifically, the response times shown seem much higher than what we're seeing in our internal logs.\n\nCould you please investigate this issue? We rely heavily on the accuracy of this data for performance optimization.\n\nApplication Name: BlueSky CRM\nAPI Endpoint: /api/v1/customers\n\nThanks,\nIsabella Rodriguez"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb59"
+    },
+    "subject": "Slow API Response Times and Deployment Issues",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T19:20:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing slow response times with the API we've developed using your platform.  Additionally, we're facing difficulties with deploying updates to our cloud environment managed through Aetheros. \n\nCould you please look into this?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-8f45c2fa-191e-4331-8348-25b31a6c2a83",
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "API development"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.535,
+    "email_types": [
+      "issue"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb79"
+    },
+    "subject": "Question about User Roles and API Access",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T20:03:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.2635,
+    "thread_id": "aa011-34e231ce-852a-4265-a3a2-89792a2681f5",
+    "message_body": "Hi Aetheros Support,\n\nI'm having some trouble understanding how to best configure user roles in relation to API access using your IAM service. Specifically, I want to create a role that can only access a specific subset of our API endpoints, but I can't seem to find a way to do that in the documentation.\n\nCould you please provide some guidance on how to achieve this?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdbd3"
+    },
+    "subject": "Urgent issue with Mercury Language and API integration",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T20:42:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe are facing a critical issue with integrating our API, developed using your services, with the Mercury language. The integration is causing unexpected errors and is preventing us from deploying our application.\n\nWe have followed the documentation provided, but we are unable to resolve the issue. \n\nCould you please provide urgent assistance with this matter?\n\nRegards,\nJohn Doe",
+    "thread_id": "aa011-8d7a685c-383d-4b77-b289-8f81a6e8a145",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": 0.2673
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdbd6"
+    },
+    "subject": "Scaling Issues with Our API on Aetheros Cloud",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T21:08:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing some performance issues with our API which we recently migrated to Aetheros Cloud. Specifically, we're seeing significant slowdowns during peak hours. \n\nWe developed this API using your platform and followed best practices, but we're struggling to pinpoint the root cause of this bottleneck. \n\nCould you please provide some guidance on how to troubleshoot this? We're available for a call to discuss further.\n\nBest regards,\nJohn Doe",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development",
+      "Cloud management"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "high",
+    "customer_satisfaction": "-0.24",
+    "thread_id": "aa011-7e034e53-0306-401f-a4aa-4999c3574c0e"
+  }
+]

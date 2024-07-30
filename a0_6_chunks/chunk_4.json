@@ -1,0 +1,562 @@
+[
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458fc"
+    },
+    "subject": "Question about API endpoint behavior",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T08:00:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm working on integrating with an API you developed for us, and I'm encountering some unexpected behavior. When I send a POST request to the '/products' endpoint with a new product object, I'm getting a 201 Created response, which is expected. However, the returned object doesn't include the product ID, making it difficult to track and update later.\n\nCould you please clarify if this is the intended behavior? If so, is there another way to retrieve the ID of the newly created product?\n\nThanks,\nJohn Doe",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.4262,
+    "thread_id": "aa012-8b44683a-3233-4c69-977b-91799820f6d8"
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb545975"
+    },
+    "subject": "Question about Mercury Language Error Handling",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T08:59:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.8894,
+    "thread_id": "aa014-e374f5a1-0045-4544-a0a6-3276d2d172ce",
+    "message_body": "Hi Aetheros Support,\n\nI'm working on a project using Mercury and having some trouble understanding the error handling mechanisms. Specifically, I'm unsure how to catch and handle exceptions within a specific code block.\n\nCould you provide some examples or documentation on how to effectively implement error handling in Mercury? \n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb54595a"
+    },
+    "subject": "Mercury Language Role Permission Issue",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T09:25:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nI'm having some trouble setting up role-based permissions within a Mercury language project. I've defined roles and assigned users to them in the IAM service, but these roles don't seem to be recognized within my Mercury code when using the built-in authorization functions. \n\nIs there some specific configuration needed to bridge the IAM service with Mercury language projects? \n\nThanks,\nJohn Doe",
+    "thread_id": "aa014-8976a3a2-d86a-4e6a-9683-73d58b256251",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language",
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.5554
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb5459a9"
+    },
+    "subject": "Scaling Issues with Our App on Your Cloud Platform",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T09:27:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing some difficulties scaling our application on your cloud platform recently.  We're seeing significant slowdowns during peak hours, and our own attempts to adjust resource allocation haven't resolved the issue.\n\nCould you please take a look and advise on how we can optimize our setup for better performance?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa014-e36aa081-c423-4f6c-a261-8475b44e349c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud Management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.9284
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb5459bf"
+    },
+    "subject": "Mercury Language Documentation Issues",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T10:25:00Z",
+    "message_body": "Hello Aetheros Support,\n\nI'm having trouble finding clear documentation on error handling in Mercury. Specifically, I'm looking for information on:\n\n* How to catch and handle specific exception types.\n* Best practices for logging and reporting errors in a production environment.\n* Any built-in error handling mechanisms provided by the language.\n\nThe existing documentation seems to be lacking in this area. Could you please point me to any relevant resources or provide some guidance?\n\nThanks,\nJohn Doe",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury language"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.3584,
+    "thread_id": "aa014-8a12e4c7-5e0d-4e15-946c-8d704384712b"
+  },
+  {
+    "_id": {
+      "$oid": "66630824bbd438f7cb5459e9"
+    },
+    "subject": "Question about user roles and permissions",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T11:13:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm having some trouble understanding how to set up granular permissions for different teams in my organization using your IAM service. Specifically, I want to create a role that can only access certain API endpoints. Is this possible?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa013-f809c20f-8a4a-4d2d-9231-819640f53283",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.5172
+  },
+  {
+    "_id": {
+      "$oid": "66630824bbd438f7cb545a0c"
+    },
+    "subject": "Question about user roles in IAM service",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T11:25:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.1534,
+    "thread_id": "aa013-3e518f1b-213e-4747-8c12-488572874f4e",
+    "message_body": "Hi Aetheros Support,\n\nI'm having some trouble understanding how to set up granular permissions for different user roles within the IAM service. Specifically, I want to grant certain users read-only access to specific API endpoints while allowing others full control.\n\nCould you please provide some documentation or examples on how to achieve this?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "6663094abbd438f7cb545a76"
+    },
+    "subject": "Suggestion for Cloud Management Dashboard",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T11:35:00Z",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.7712,
+    "thread_id": "aa015-3f4e425b-952f-4d8a-a989-d4557e6c5c44",
+    "message_body": "Hi Aetheros Support,\n\nI've been using your Cloud Management service for a few months now, and I really like the overall functionality. However, I have a suggestion for the dashboard that I think would improve the user experience.\n\nCurrently, the resource usage charts are a bit basic. It would be great if you could add more detailed visualizations, such as stacked area charts to see the breakdown of resource usage by different components or applications.\n\nAdditionally, a customizable dashboard where we can choose which metrics and visualizations are displayed would be fantastic. \n\nThank you for considering my suggestion.\n\nSincerely,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "6663094abbd438f7cb545a70"
+    },
+    "subject": "Problem with Mercury Language Compiler",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T12:14:00Z",
+    "message_body": "Hello Aetheros Support,\n\nI'm having trouble compiling my Mercury code. I'm getting a strange error message that I don't understand. I've attached a screenshot of the error and a snippet of the code. Could you please take a look and let me know what's going on?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa015-897a2b7b-c092-4d4f-9e9c-76e7b2190c63",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.4933
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b260079c"
+    },
+    "subject": "Urgent Issue: Users unable to access resources with new API roles",
+    "sender": "john.doe@examplecompany.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T12:48:00Z",
+    "message_body": "We are experiencing an urgent issue where users are unable to access the resources they need through our new API. We recently implemented new roles and permissions using your IAM service, and since then, users have been encountering authorization errors.\n\nWe have verified that the API endpoints themselves are functioning correctly. The issue seems to stem from the IAM service not properly applying the new roles and permissions to users during API authentication.\n\nThis is a critical issue for us as it is impacting our production environment and preventing users from accessing essential resources. We kindly request your immediate assistance in resolving this matter.\n\nPlease let us know what information you need from our end to troubleshoot this issue effectively. We are available for a call if necessary.\n\nThank you,\nJohn Doe\nExample Company",
+    "thread_id": "aa007-50b64814-8e2b-4d33-b646-8f563948d1d1",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service",
+      "API development"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.3818
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b260089e"
+    },
+    "subject": "Mercury Language Documentation Issue",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T13:26:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm having trouble finding clear documentation on how to implement user authentication in Mercury language. The existing documentation seems outdated and doesn't cover the specific IAM integration I need.\n\nCould you please point me to the correct resources or provide some guidance on this?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-8e561757-e47f-489f-a574-70d53649111a",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language",
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": -0.4663
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb98"
+    },
+    "subject": "Problem with User Roles in IAM",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T13:47:00Z",
+    "message_body": "Hi Support,\n\nI'm having trouble setting up specific user roles within your IAM service. I need to grant different levels of access to different teams, but I'm not seeing the granularity I need in the role permissions. \n\nCould you please provide some guidance on how to achieve this? \n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-d2354a0d-4a86-4f4b-a611-20a09a0860e2",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": -0.6572
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdc13"
+    },
+    "subject": "Mercury Language Role Permissions Issue",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T14:05:00Z",
+    "message_body": "Hello Aetheros Support,\n\nI'm having trouble setting specific role permissions within the Mercury language for our API development.  I've defined roles in the IAM service, but they don't seem to be reflected properly when I use the corresponding Mercury commands to enforce them. \n\nCould you provide some guidance on properly integrating IAM roles with Mercury language code?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-8b94891c-a46d-417b-8e6f-33434fabc263",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": "-0.6124"
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb545983"
+    },
+    "subject": "IAM Role Permissions Issue",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T14:10:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm having trouble setting up permissions for a specific role in the IAM service. I want to allow this role to only access certain API endpoints, but I'm not seeing those endpoints listed in the permissions options. \n\nCould you please advise how to proceed?\n\nThanks,\nJohn Doe",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": -0.0862,
+    "thread_id": "aa014-e2f5584b-9c76-45d6-a387-2745c3e2805d"
+  },
+  {
+    "_id": {
+      "$oid": "6663094abbd438f7cb545ab4"
+    },
+    "subject": "API Monitoring - Intermittent Latency Spikes",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T14:30:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent latency spikes with our API that's being monitored by your platform.  The spikes don't seem to follow a pattern and are impacting performance sporadically.\n\nCould you help us investigate what might be causing this?\n\nThanks,\nJohn Doe",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.1225,
+    "thread_id": "aa015-730aa652-68d2-48a4-a9a2-f5c42c6143a4"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdc50"
+    },
+    "subject": "Re: URGENT: Mercury Code Deployment Failing - API Monitoring Shows Errors",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T14:43:00Z",
+    "message_body": "Hi,\n\nWe applied the hotfix and can confirm that the deployment issue is resolved. Our API monitoring dashboard is no longer showing any errors. Thank you for your help!\n\nHowever, we are extremely unhappy with the lack of communication about this bug. This outage caused significant damage to our business. We expect better proactive communication from your team in the future.\n\nRegards,\nJohn",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Mercury Language",
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.893,
+    "thread_id": "aa011-8d864348-1428-42a3-9f2c-7735587e0801"
+  },
+  {
+    "_id": {
+      "$oid": "66607f13f018b325b2600583"
+    },
+    "subject": "Re: Urgent Issue with API Response Time - Aetheros API",
+    "sender": "john.doe@examplecompany.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T15:11:00Z",
+    "message_body": "Hi Aetheros Support,\n\nPlease find the requested information below:\n\n* Approximate time the issue began: Around 08:00 AM UTC\n* Any recent changes made to our system or the API calls: No recent changes on our end.\n* Error messages or codes: We are receiving intermittent \"504 Gateway Timeout\" errors.\n* Screenshots or logs: I have attached relevant server logs for your review.\n\nPlease let us know if you require any further information.\n\nThanks,\nJohn Doe",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.6926,
+    "thread_id": "aa003-98d61372-1143-4409-8779-58f532a23b8a"
+  },
+  {
+    "_id": {
+      "$oid": "66607f2cf018b325b26005d1"
+    },
+    "subject": "Mercury Language Integration Issue with Existing API",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T15:34:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe're trying to integrate Mercury Language with our existing API, which we also developed using Aetheros's API development services. We're encountering some compatibility issues and were hoping you could shed some light on how to resolve them. \n\nSpecifically, we're facing problems with [mention specific issue related to data type compatibility or function calls].\n\nWe've already gone through the documentation and tried a few workarounds but haven't had any luck. \n\nCould you please advise on how to proceed?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa005-504749d4-2784-486a-b4f7-7299174a4a43",
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language",
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.8027,
+    "email_types": [
+      "issue"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb545833"
+    },
+    "subject": "Urgent: API Monitoring - Metrics Not Updating",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T16:00:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.4685,
+    "thread_id": "aa012-9b1deb4d-3b7d-4bad-9bdd-2c8f8578f892",
+    "message_body": "Our team is experiencing issues with the API monitoring service. The dashboard is not reflecting real-time data, and several metrics haven't updated in the past hour. This is impacting our ability to monitor our API performance and identify potential issues. We need this resolved urgently.\n\nCan you please investigate and provide an update as soon as possible?"
+  },
+  {
+    "_id": {
+      "$oid": "6663094abbd438f7cb545aa4"
+    },
+    "subject": "Suggestion for Mercury Language: Enhanced Cloud Integration",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T16:24:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nI'm writing to suggest an improvement for the Mercury language regarding its integration with your Cloud Management services.\n\nWhile Mercury significantly streamlines API development, I believe it could be even more powerful with tighter integration with your cloud management offerings. Specifically, it would be incredibly beneficial if we could directly manage and provision cloud resources from within Mercury code.\n\nFor example, imagine being able to define and deploy a serverless function entirely within a Mercury script, including resource allocation, scaling configuration, and security settings. This would significantly streamline our development workflow and reduce the need for context switching between different tools and environments.\n\nI understand this might be a significant undertaking, but I believe it would greatly enhance the value proposition of both Mercury and your Cloud Management platform. I would be happy to discuss this further and provide more specific examples if needed.\n\nThank you for your time and consideration.\n\nSincerely,\nJohn Doe",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language",
+      "Cloud management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.4639,
+    "thread_id": "aa015-3c491084-f652-470a-a958-d729998ef6c4"
+  },
+  {
+    "_id": {
+      "$oid": "6663094abbd438f7cb545aad"
+    },
+    "subject": "Question about API Monitoring Latency Spikes",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T17:00:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI've been noticing some intermittent latency spikes with my API being monitored through your platform.  It's not consistent, but it's happening frequently enough to be concerning.\n\nCould you advise on what might be causing this and what steps I can take to troubleshoot?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa015-8e32283f-57bf-4562-9080-8312a1cb48a2",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.1145
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb54594d"
+    },
+    "subject": "High API Latency in Production",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T17:51:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": "-0.5245",
+    "thread_id": "aa014-123e4567-e89b-12d3-a456-426614174000",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing unusually high latency with our production APIs for the past few hours. Our application relies heavily on these APIs, and the slow response times are impacting our users.\n\nWe've checked our end, and everything seems fine. Can you please investigate and provide an update?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "6663094abbd438f7cb545a90"
+    },
+    "subject": "Re: Urgent Help Needed: Cloud Deployment Issues and API Rate Limiting",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-02T17:55:00Z",
+    "message_body": "Dear John,\n\nThank you for reaching out. We understand the urgency of the situation. To assist you effectively, could you please provide us with the following details?\n\n* **Cloud Deployment:**\n    * Your Aetheros account ID\n    * The approximate time the deployment issue began\n    * Any error messages you're encountering\n* **API Rate Limiting:**\n    * The specific API endpoint(s) experiencing rate limiting\n    * Your current API usage statistics (if available)\n\nOnce we have this information, we can investigate further and provide a solution. \n\nBest regards,\nAetheros Support Team",
+    "thread_id": "aa015-76e09017-4c79-4865-942c-795e5c38a7c7",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "API development"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.3392
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458a4"
+    },
+    "subject": "Question about Mercury Language error handling",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T18:20:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language",
+      "API monitoring"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.3661,
+    "thread_id": "aa012-89e97a1a-8911-4075-a998-66897a048c2d",
+    "message_body": "Hi Aetheros Support,\n\nI'm working on a project using Mercury language and I'm having trouble implementing custom error handling for my API endpoints. \n\nIs there a specific way to catch and handle exceptions within the Mercury framework? The documentation seems to be lacking in this area. \n\nAlso, is there a way to integrate the error messages with the API monitoring dashboard?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb6c"
+    },
+    "subject": "Re: URGENT: Mercury Language Integration Issue Causing API Downtime",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T19:11:00Z",
+    "message_body": "Hi,\n\nHere is the information you requested:\n\n* Mercury Language version: 2.5.3\n* Error message: \"Segmentation fault (core dumped)\" - this appears intermittently in the server logs\n* Code snippet: [provided as attachment]\n\nPlease let me know if you require any further information.\n\nThanks,\nJohn",
+    "thread_id": "aa011-7e084858-0a3f-4d89-9f9f-348228689f01",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API development",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.3092
+  }
+]

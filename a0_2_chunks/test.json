@@ -1,0 +1,22 @@
+[{
+    "_id": {
+      "$oid": "6663094abbd438f7cb545aaf"
+    },
+    "subject": "URGENT: User Permission Errors in Production",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-17T15:39:00Z",
+    "message_body": "We are experiencing critical issues with user permissions in our production environment. Users are being denied access to resources they should have access to.  This is causing major disruption to our operations. We believe it's related to a recent update to your IAM service.  Please advise ASAP on how to resolve this issue.",
+    "thread_id": "aa015-e38e7457-9148-4237-8615-2d18629a1b85",
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.3599,
+    "email_types": [
+      "issue"
+    ]
+  }]

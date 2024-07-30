@@ -1,0 +1,563 @@
+[
+  {
+    "_id": {
+      "$oid": "66607f2cf018b325b26005df"
+    },
+    "subject": "API Monitoring - Spike in Latency",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T08:00:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.2826,
+    "thread_id": "aa005-6e5335a1-4f63-4a2b-a160-997e8bd16b50",
+    "message_body": "Hi Aetheros Support Team,\n\nI've been noticing some unusual spikes in latency on our API over the past few hours. It's causing intermittent slowdowns for our users.\n\nCould you please take a look? \n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b260062f"
+    },
+    "subject": "Mercury Language Documentation Question",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T08:31:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm working with the Mercury language for a new API endpoint, and I'm having trouble finding clear documentation on how to implement custom authorization logic.  Is there a specific section in the docs, or could you provide some guidance on how to achieve this?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa006-37d0a54c-8633-4f57-a197-67963785db28",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language",
+      "API Development"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.4936
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b2600681"
+    },
+    "subject": "Suggestion for API Monitoring Dashboard",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T08:50:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nI've been using your API monitoring service for a few months now and overall I'm quite happy with it. However, I have a suggestion for the dashboard. \n\nIt would be incredibly helpful if we could customize the dashboard widgets to display specific metrics more prominently. For example, I'd like to have a large widget showing the average response time for a particular endpoint group right at the top. \n\nCould you consider adding this customization feature in a future update?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa006-4d2a532c-8c6e-40d4-927b-5a64c25f72e8",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.1142
+  },
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b2600736"
+    },
+    "subject": "Question about API Development Services",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T09:06:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm interested in learning more about your API development services. Specifically, I'm curious about your experience building APIs for financial applications. Could you provide some information or case studies related to your work in this area?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa007-d4968223-02ba-4986-a547-81163359f82a",
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.3841,
+    "email_types": [
+      "inquiry"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26007ea"
+    },
+    "subject": "Scaling Issue with Cloud Instance - Instance ID: i-0a1b2c3d4e5f6g7h8",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T09:38:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.1784,
+    "thread_id": "aa008-550e8400-e29b-41d4-a716-446655440000",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing some difficulties scaling our cloud instance (ID: i-0a1b2c3d4e5f6g7h8) over the past few days.  We're seeing significant performance drops during peak hours.\n\nCould you please look into this and advise on how we can best optimize our scaling configuration?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600811"
+    },
+    "subject": "High Latency Issues with Our API",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T10:07:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent high latency with the API you developed for us. The issue started about a week ago and has been occurring more frequently.\n\nWe're seeing response times of over 5 seconds at times, which is impacting our application's performance.\n\nWe've checked our end, and there doesn't seem to be any issue on our side.\n\nCould you please investigate this issue as soon as possible and let us know what the problem is?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-4c795626-7622-468f-954f-396d555b148d",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development",
+      "API monitoring"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.5149
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600806"
+    },
+    "subject": "Question about Aetheros IAM and API Roles",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T10:47:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm working on integrating your IAM service with a new API we're developing using Aetheros API development services. I'm a bit confused about how to define roles that grant access to specific API endpoints. \n\nCould you please provide some documentation or examples on how to set granular permissions for different user roles within the IAM system when it comes to API access? \n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-7e280987-9992-4b5d-9000-32a1b6b91234",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service",
+      "API development"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.928
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600850"
+    },
+    "subject": "Question about Cloud Management scaling",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T11:22:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.1797,
+    "thread_id": "aa008-4d2c449a-8719-48e7-86a3-a44c32e7405c",
+    "message_body": "Hi Aetheros Support,\n\nI'm having a bit of trouble understanding how the automatic scaling works with your Cloud Management service. Specifically, what metrics are used to trigger scaling up? Is it possible to adjust the sensitivity of the scaling triggers?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008f5"
+    },
+    "subject": "Urgent issue with API response time",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T12:00:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.2418,
+    "thread_id": "aa008-e8c67b5a-4f35-4061-8b18-283068a91d83",
+    "message_body": "Hi Aetheros Support Team,\n\nWe are experiencing significant delays in API response times for our application which is built using your API development services. This is causing major disruptions to our operations.\n\nWe have been observing this issue for the past few hours and it seems to be getting worse. Our initial investigation suggests it might be related to the API endpoint for [mention specific endpoint]. \n\nCould you please investigate this urgently and provide an update as soon as possible?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008dc"
+    },
+    "subject": "Mercury Language - Null Pointer Exception in Lambda Expression",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T12:59:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm encountering a persistent Null Pointer Exception when using a lambda expression within the Mercury language. \n\nHere's a snippet of the code: \n\n```mercury\nlet myLambda = (x) => x.getProperty(\"name\");\nlet result = someList.map(myLambda);\n```\n\nThe error occurs on the `map` function call, specifically when the lambda attempts to access `getProperty(\"name\")`. I've ensured that `someList` is not null and contains valid objects. Could you please advise on how to resolve this?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-4d91b46e-1a4a-4425-9238-e0e278efb571",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": 0.2458
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b2600941"
+    },
+    "subject": "Question about user roles and Cloud resources",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T13:26:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm having a bit of trouble understanding how to restrict user access to specific cloud resources within my application. I've set up different roles in the IAM service, but I can't seem to link these roles to specific resources within my cloud environment. \n\nIs there a way to achieve this level of granularity? \n\nThanks,\nJohn Doe",
+    "thread_id": "aa009-8b6a4d1c-0389-441c-a11f-61e76b43d3ec",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.6597
+  },
+  {
+    "_id": {
+      "$oid": "666202d61b4284eae85bdade"
+    },
+    "subject": "Problem with User Roles Assignment",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T14:08:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.7121,
+    "thread_id": "aa010-8d86b5e8-3934-4c24-8e62-3e25c779c4d9",
+    "message_body": "Hi Aetheros Support,\n\nI'm having trouble assigning specific roles to users within my organization. I'm trying to give a group of developers access to a particular API, but the role assignment doesn't seem to be working correctly. They are still getting authorization errors. \n\nCan you help me troubleshoot this?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb2c"
+    },
+    "subject": "Urgent Issue: IAM Role Assignment Failing",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T14:22:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.7901,
+    "thread_id": "aa011-7e89121a-998b-4d27-903e-422843152555",
+    "message_body": "We are experiencing a critical issue with Aetheros IAM service. We are unable to assign specific roles to users within our organization, causing disruptions to our workflows. \n\nSpecifically, attempts to assign the \"Developer\" role are met with an error message stating \"Insufficient Privileges.\"  We have confirmed that the user attempting the assignment has the necessary permissions according to your documentation.\n\nThis is a high-priority issue as it's preventing our developers from accessing essential resources. We require immediate assistance to resolve this."
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdbcd"
+    },
+    "subject": "Suggestion for Cloud Management Dashboard",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T14:34:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nI've been using your cloud management services for a few months now, and overall, I'm quite happy with the platform. However, I have a suggestion for the dashboard that I believe would greatly improve user experience.\n\nCurrently, the resource utilization charts are a bit basic. It would be incredibly helpful if you could add more granular controls for timeframes and display additional metrics like memory usage and network traffic. This would provide a much clearer picture of our resource consumption.\n\nThank you for considering my suggestion. I look forward to hearing your thoughts on this.\n\nBest Regards,\nJohn Doe",
+    "thread_id": "aa011-8e33c11a-6215-41d1-a74a-5599016a18d2",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.0202
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdc27"
+    },
+    "subject": "Scaling Issues with Our API on Aetheros Cloud",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T15:23:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent performance issues with our API hosted on Aetheros Cloud. It seems to struggle handling traffic spikes during peak hours. \n\nWe developed the API using your platform and tools, and it's been running smoothly until recently. We need help identifying the root cause of these scaling issues and finding a solution to ensure smooth performance even during peak loads.\n\nCould you please look into this urgently?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-e2968a76-6914-421e-8343-477409c4516c",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development",
+      "Cloud management"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": "-0.5052"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdc7b"
+    },
+    "subject": "Suggestion for Cloud Management Dashboard",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T16:12:00Z",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.98,
+    "thread_id": "aa011-7e0c550a-9e27-4254-845c-5a2b57965a1c",
+    "message_body": "Hi Aetheros Support,\n\nI've been using your Cloud Management service for a few months now, and overall I'm happy with it. However, I have a suggestion for the dashboard.\n\nIt would be incredibly useful if the dashboard could display resource usage trends over time. For example, being able to see a graph of my CPU usage over the past week or month would be very helpful for identifying potential issues and optimizing my resource allocation.\n\nThanks for considering my suggestion.\n\nSincerely,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb54581d"
+    },
+    "subject": "Suggestion for API Development and IAM Integration",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T16:27:00Z",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API development",
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.4883,
+    "thread_id": "aa012-8675309a-1234-5678-9abc-def012345678",
+    "message_body": "Hi Aetheros Support,\n\nI'm writing to suggest a potential improvement for your API development and IAM services.  It would be incredibly helpful if there was a more streamlined way to integrate the two. For example, automatically generating API keys within a specific IAM role would simplify our workflow significantly.\n\nCould you explore this possibility and let me know if it's something you might consider?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb545822"
+    },
+    "subject": "Issue with Mercury Language Permissions",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T17:02:00Z",
+    "message_body": "Hello,\n\nI am having trouble granting specific permissions to a user role within a Mercury Language project. I want to allow them to read data but not write, but I can't seem to find the right permissions settings. \n\nCould you please point me in the right direction?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa012-d25e140d-600d-4a98-a713-8f5a27719614",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language",
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.8895
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb545881"
+    },
+    "subject": "Suggestion for API Monitoring Dashboard",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T17:40:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nI'm writing to suggest an improvement to the API Monitoring dashboard. It would be incredibly helpful if we could customize the metrics displayed on the main dashboard. Currently, we have to navigate to different sections to see specific data points.\n\nHaving the ability to tailor the dashboard to our needs would significantly improve our monitoring workflow and efficiency.\n\nThanks,\nJohn Doe",
+    "thread_id": "aa012-7e0377c8-a70d-416b-9e78-08621f772038",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.3118
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb545886"
+    },
+    "subject": "Scaling Issues and API Rate Limiting",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T17:59:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent rate limiting errors on our API endpoints, particularly during peak traffic hours. We're using your cloud management and API development services. \n\nCould you please look into this urgently? We believe our scaling configuration might need adjustment to handle the increased load. \n\nRegards,\nJohn Doe",
+    "thread_id": "aa012-7e53c78a-0021-4f7d-9391-894830abf5b4",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": -0.342
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb545892"
+    },
+    "subject": "Suggestion for Cloud Management Dashboard",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T18:22:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nI'm writing to suggest an improvement to the Cloud Management dashboard. It would be incredibly helpful if we could see a real-time graph of our API usage directly on the main dashboard. This would provide us with instant visibility into any spikes or drops in traffic and allow us to correlate that data with other cloud resource metrics. \n\nThanks,\nJohn Doe",
+    "thread_id": "aa012-837492a1-c78f-4428-9a11-3e88f98162ef",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "API monitoring"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.1289
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb54588a"
+    },
+    "subject": "API Monitoring Dashboard Suggestion",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T18:24:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI've been using your API monitoring platform for a few months now and I'm really impressed with the features and performance.\n\nI do have a suggestion that I believe would improve the user experience. It would be great if the dashboard could include a customizable widget for displaying average response times for selected APIs over a specific time period. This would provide a quick and easy way to monitor the performance of critical APIs.\n\nThanks for considering my suggestion.\n\nSincerely,\nJohn Doe",
+    "thread_id": "aa012-4d2f482c-5717-4868-9654-9a5c09e6e36a",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.8888
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458c1"
+    },
+    "subject": "Question about API rate limits",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T18:25:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm working on a project using your API development services and I had a question about rate limits. Is there a way to increase the rate limit for our account? We're getting close to the limit and it's starting to impact our application's performance.\n\nThanks,\nJohn Doe",
+    "thread_id": "aa012-e1a14edc-5678-4567-9876-123456789012",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.254
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458b4"
+    },
+    "subject": "Urgent: API Monitoring Alerts Not Triggering",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T19:01:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing issues with our API monitoring setup. The alerts aren't triggering despite exceeding the defined thresholds.\n\nWe've checked the following:\n\n* API endpoint availability\n* Monitoring dashboard configuration\n* Alerting channel settings\n\nEverything seems to be in order, but we're still not receiving alerts. This is causing significant delays in our incident response time.\n\nCould you please investigate this issue as a matter of urgency?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa012-d5f0ff50-8d1b-48f6-8048-97998a876243",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API monitoring",
+      "API development"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": 0.3974
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458ee"
+    },
+    "subject": "Urgent assistance needed with Mercury language integration",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-02T19:06:00Z",
+    "message_body": "Hello Aetheros Support,\n\nWe've recently integrated Mercury into our API development workflow, but we're encountering some difficulties. Specifically, we're facing challenges in utilizing advanced features of Mercury for our custom API development.\n\nCould you please provide us with some guidance or resources on how to effectively use Mercury for complex API scenarios?\n\nThank you,\nJohn Doe",
+    "thread_id": "aa012-899c4508-2c25-4d3b-a590-24e06211d513",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development",
+      "Mercury language"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.76
+  }
+]

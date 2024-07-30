@@ -1,0 +1,22 @@
+[  {
+    "_id": {
+      "$oid": "66607f42f018b325b260077e"
+    },
+    "subject": "Urgent Help Needed: Mercury Language Integration Issue Causing System Crash",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T08:29:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nWe are facing a critical issue with our recent integration of the Mercury language into our system. Since implementation, we've experienced intermittent system crashes, seemingly linked to complex Mercury scripts.\n\nWe are running Mercury version 2.5.1 on an Ubuntu 22.04 server environment. The crashes appear random, but always during the execution of specific, resource-intensive Mercury scripts.\n\nThis is severely impacting our operations, and we need an urgent resolution or workaround. Please advise on how we can proceed.\n\nRegards,\nJohn Doe\nLead Developer",
+    "thread_id": "aa007-e87d627f-845b-47c4-a53e-90d50a04e543",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.1167
+  }]

@@ -1,0 +1,562 @@
+[
+  {
+    "_id": {
+      "$oid": "66607f42f018b325b260079d"
+    },
+    "subject": "Re: Urgent Issue: Users unable to access resources with new API roles",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@examplecompany.com",
+    "timestamp": "2024-07-08T08:00:00Z",
+    "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand the urgency of this issue and are here to help.\n\nTo assist us in diagnosing the problem, could you please provide the following information:\n\n* The specific error messages users are encountering\n* The relevant API endpoints being accessed\n* The user roles and permissions configured in the IAM service\n\nOur team is ready to investigate this issue further once we have received this information.\n\nBest regards,\nAetheros Support Team",
+    "thread_id": "aa007-50b64814-8e2b-4d33-b646-8f563948d1d1",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service",
+      "API development"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.3818
+  },
+  {
+    "_id": {
+      "$oid": "66607f2cf018b325b2600625"
+    },
+    "subject": "Question about user roles and API access limitations",
+    "sender": "isiah.okon@gmail.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T08:32:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring",
+      "IAM service"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.8277,
+    "thread_id": "aa005-6e549028-c26a-400d-8279-2a9022a8d54f",
+    "message_body": "Hi Aetheros Support,\n\nI'm working on setting up more granular access control for our development team using your IAM service. We'd like to restrict certain API endpoints based on user roles. Is this something possible with Aetheros IAM?\n\nThanks,\nIsiah Okon"
+  },
+  {
+    "_id": {
+      "$oid": "66630824bbd438f7cb545a09"
+    },
+    "subject": "Suggestion: Enhance IAM service with activity logs and audit trails",
+    "sender": "isiah_schulist@dubuque.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T09:12:00Z",
+    "message_body": "Dear Aetheros Support Team,\n\nI'm writing to suggest a significant improvement to your IAM service. While the current feature set is robust, adding detailed activity logs and audit trails would greatly enhance security and compliance for our organization.\n\nSpecifically, we'd benefit from tracking actions like:\n\n* User logins (successful and failed)\n* Role assignments and changes\n* Permission modifications\n* API key generation and usage\n\nHaving a comprehensive log of these activities would allow us to:\n\n* Quickly identify and address potential security breaches\n* Meet regulatory compliance requirements for data access auditing\n* Gain deeper insights into user behavior and system usage patterns\n\nI believe this enhancement would be invaluable for many Aetheros customers and significantly strengthen your IAM offering. Please let me know if you have any questions or require further details.\n\nSincerely,\n\nIsiah Schulist\nHead of Information Security",
+    "thread_id": "aa013-550e8400-e29b-41d4-a716-446655440000",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.9257
+  },
+  {
+    "_id": {
+      "$oid": "66607f13f018b325b2600599"
+    },
+    "subject": "Re: Urgent: Users Unable to Access API Dashboard - IAM and API Monitoring Issues",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T09:54:00Z",
+    "message_body": "Dear John,\n\nWe have identified the issue. There was a minor bug in our latest system update that caused a conflict with API key revocation and IAM permissions. We have implemented a fix, and access to the API monitoring dashboards should be restored for all users.\n\nWe sincerely apologize for the inconvenience this downtime caused. We take these matters very seriously and are taking steps to prevent similar issues in the future.\n\nPlease don't hesitate to contact us if you experience any further problems.\n\nSincerely,\nAetheros Support Team",
+    "thread_id": "aa003-4c2e7676-50da-4690-90c0-5601f40a0100",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service",
+      "API monitoring"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.4131
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb5459b7"
+    },
+    "subject": "URGENT: Users randomly losing access to resources",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T10:50:00Z",
+    "message_body": "We are experiencing a critical issue with our Aetheros IAM service. Users are randomly losing access to resources, and we haven't been able to identify a pattern. This is causing major disruptions to our operations.\n\nWe need immediate assistance to resolve this issue. Please advise on next steps.",
+    "thread_id": "aa014-550e8400-e29b-41d4-a716-446655440000",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.11
+  },
+  {
+    "_id": {
+      "$oid": "6663094abbd438f7cb545a6a"
+    },
+    "subject": "Urgent: API Monitoring Dashboard Downtime",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T11:44:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring",
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.3349,
+    "thread_id": "aa015-d5f286a7-a1d1-46c2-9d27-6d0b58a3942e",
+    "message_body": "Hi Aetheros Support,\n\nOur API monitoring dashboard has been down for the past hour. We are unable to see any data about our API performance.\n\nThis is a critical issue for us as we rely on the dashboard to monitor our systems in real-time. \n\nPlease advise on the situation and expected resolution time.\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458a1"
+    },
+    "subject": "Re: Urgent help needed with IAM role permissions",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T12:03:00Z",
+    "message_body": "Aetheros Support,\n\nThat fixed it! Thank you so much for your help, I really appreciate the quick and clear solution.\n\nBest,\nJohn",
+    "thread_id": "aa012-74f9a7c3-8218-4294-a8e1-d717c41786a8",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service",
+      "Cloud management"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.4183
+  },
+  {
+    "_id": {
+      "$oid": "66607f08f018b325b2600566"
+    },
+    "subject": "Re: Problem adding users to group in IAM service",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T12:40:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.799,
+    "thread_id": "aa002-98d3f07a-4d72-469c-a386-0c437275819c",
+    "message_body": "Hi John,\n\nThank you for reaching out to us. We understand you're experiencing issues adding users to a group in our IAM service. \n\nTo help us troubleshoot this issue, could you please provide us with the following information?\n\n* The name of the group you're trying to add users to.\n* The usernames of the users you're trying to add.\n* A screenshot of the error message you're receiving.\n\nOnce we have this information, we'll be able to assist you further.\n\nBest regards,\nAetheros Support Team"
+  },
+  {
+    "_id": {
+      "$oid": "66607f13f018b325b260056d"
+    },
+    "subject": "Re: Latency spikes in API monitoring dashboard",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T13:02:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management",
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.5776,
+    "thread_id": "aa003-74b8c775-8d6f-4651-9542-a140185d74e2",
+    "message_body": "Hi John,\n\nThank you for reaching out. We're aware of some intermittent latency spikes affecting our API monitoring platform. Our engineers are currently investigating the issue and working on a resolution.\n\nWe'll keep you updated on the progress. We apologize for any inconvenience this may cause.\n\nBest regards,\nAetheros Support"
+  },
+  {
+    "_id": {
+      "$oid": "66607f37f018b325b2600630"
+    },
+    "subject": "Re: Mercury Language Documentation Question",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T13:23:00Z",
+    "message_body": "Hi John,\n\nThank you for reaching out to Aetheros Support.\n\nYou can find information about implementing custom authorization logic within the Mercury language documentation under the 'Security' section, specifically in the 'Custom Authorization Handlers' subsection.\n\nThe documentation can be found here: [Link to documentation]\n\nPlease let us know if you have any other questions.\n\nBest regards,\nAetheros Support Team",
+    "thread_id": "aa006-37d0a54c-8633-4f57-a197-67963785db28",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Mercury Language",
+      "API Development"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.4936
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008f9"
+    },
+    "subject": "Re: Question about User Roles in IAM service",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T13:25:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.8207,
+    "thread_id": "aa008-e324ce3d-5488-4020-863d-2990469a429d",
+    "message_body": "Hello John,\n\nThank you for reaching out to Aetheros Support.\n\nYes, you can definitely achieve that level of granularity with our IAM service. You can create custom roles and assign specific permissions for viewing API analytics without granting access to edit API configurations.\n\nTo do this, you can follow these steps:\n\n1. Log in to your Aetheros dashboard and navigate to the IAM service.\n2. Go to the \"Roles\" section and click \"Create Role.\"\n3. Give your role a descriptive name, like \"API Viewer.\"\n4. In the permissions list, find and select the permission for \"View API Analytics.\"\n5. Make sure to deselect any permissions related to editing API configurations.\n6. Save your new role.\n\nOnce you've created this role, you can assign it to any user who needs to view API analytics but not edit the configurations.\n\nPlease let us know if you have any further questions.\n\nBest regards,\nAetheros Support"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008f6"
+    },
+    "subject": "Re: Urgent issue with API response time",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T14:18:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.2418,
+    "thread_id": "aa008-e8c67b5a-4f35-4061-8b18-283068a91d83",
+    "message_body": "Dear John,\n\nThank you for reaching out to us. We understand the urgency of this issue and are currently investigating it. We will keep you updated on the progress.\n\nBest regards,\nAetheros Support Team"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008fc"
+    },
+    "subject": "Re: API Monitoring Dashboard Discrepancy",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T14:26:00Z",
+    "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you're experiencing discrepancies with your API monitoring dashboard data.\n\nTo help us investigate further, could you please provide the following information:\n\n* **Affected API endpoints:**\n* **Timeframe of the discrepancies:**\n* **Screenshots of the discrepancies from your dashboard and application logs:**\n\nOnce we have this information, we'll be able to assist you more effectively.\n\nBest regards,\nAetheros Support Team",
+    "thread_id": "aa008-8f48758b-0a4f-4cf9-8d4d-26148771334a",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.5136
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb54587c"
+    },
+    "subject": "Re: API Monitoring Dashboard Delay",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T14:41:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.9505,
+    "thread_id": "aa012-6e54852a-c0c2-420b-a671-35f57f3a00f3",
+    "message_body": "Hi John,\n\nThank you for reaching out. We apologize for the delay you're experiencing on your API Monitoring dashboard.\n\nWe've identified a temporary issue affecting a small number of users. Our engineers are actively working on a resolution. \n\nWe'll keep you updated on the progress. In the meantime, please don't hesitate to contact us if you have any further questions.\n\nBest regards,\nAetheros Support"
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458c2"
+    },
+    "subject": "Re: Question about API rate limits",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T14:48:00Z",
+    "message_body": "Hi John,\n\nThank you for reaching out to Aetheros Support.\n\nWe can definitely look into increasing your API rate limit. To help us best assist you, could you please provide us with some more information?\n\n* Your Aetheros account ID\n* The specific API endpoint(s) you're seeing rate limiting on\n* Your current average and peak API usage\n\nOnce we have this information, we can review your account and discuss rate limit options with you.\n\nBest regards,\nAetheros Support",
+    "thread_id": "aa012-e1a14edc-5678-4567-9876-123456789012",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API development"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.254
+  },
+  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb5458f2"
+    },
+    "subject": "Re: API Monitoring - Inaccurate Response Time Data",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T15:44:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.6097,
+    "thread_id": "aa012-89e0aec8-7291-44d7-a288-c8050806213a",
+    "message_body": "Hi John,\n\nThank you for reaching out. We are currently investigating the issue with the inaccurate response time data for the Orders API in your Production environment. We will keep you updated on our progress.\n\nBest regards,\nAetheros Support Team"
+  },
+  {
+    "_id": {
+      "$oid": "66630824bbd438f7cb5459ea"
+    },
+    "subject": "Re: Question about user roles and permissions",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T15:58:00Z",
+    "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support.\n\nYes, you can achieve granular permission control with our IAM service. You can define roles and assign specific permissions to those roles, including access to particular API endpoints. \n\nTo set this up, you would:\n\n1. **Create a new role** specific to the team needing restricted access.\n2. **Define permissions** for this role, granting access to only the desired API endpoints. You can do this through our web console or API.\n3. **Assign users** to the newly created role.\n\nFor detailed instructions and examples, please refer to our documentation on role-based access control: [link to documentation]\n\nPlease let us know if you have any other questions.\n\nSincerely,\nAetheros Support",
+    "thread_id": "aa013-f809c20f-8a4a-4d2d-9231-819640f53283",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "high",
+    "customer_satisfaction": -0.5172
+  },
+  {
+    "_id": {
+      "$oid": "66630824bbd438f7cb545a0d"
+    },
+    "subject": "Re: Question about user roles in IAM service",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T16:33:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.1534,
+    "thread_id": "aa013-3e518f1b-213e-4747-8c12-488572874f4e",
+    "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you're looking for information on setting up granular permissions within our IAM service.\n\nYou can find detailed documentation on managing roles and permissions here: [Link to documentation]\n\nFor your specific case, you can create custom roles and assign specific permissions to those roles. This allows you to control access to specific API endpoints with read-only or full control based on the assigned role.\n\nWe also have a helpful tutorial video that walks through setting up granular permissions: [Link to video]\n\nPlease don't hesitate to reach out if you have any further questions.\n\nSincerely,\nAetheros Support"
+  },
+  {
+    "_id": {
+      "$oid": "66607f2cf018b325b26005ef"
+    },
+    "subject": "Re: Urgent Issue with Mercury Deployment on Aetheros Cloud",
+    "sender": "support@aetheros.com",
+    "receiver": "isiah_wuckert@dubuque.com",
+    "timestamp": "2024-07-08T17:03:00Z",
+    "message_body": "Dear Isiah,\n\nWe have identified the issue. You are currently subscribed to the Basic plan which has limited resources. The deployment requires more resources than your current plan allows. To proceed, you can either:\n\n1. Optimize your application to use fewer resources.\n2. Upgrade your plan to one with higher resource limits.\n\nYou can find details on our plans and their resources here: [link to pricing page]. If you choose to upgrade, you can do so directly from your Aetheros Cloud dashboard.\n\nPlease let us know if you have any further questions. \n\nSincerely,\nAetheros Support",
+    "thread_id": "aa005-35e22247-2f0f-4894-890d-f288c9788000",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "API development",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.8408
+  },
+  {
+    "_id": {
+      "$oid": "66630370bbd438f7cb54594e"
+    },
+    "subject": "Re: High API Latency in Production",
+    "sender": "support@aetheros.com",
+    "receiver": "john.doe@example.com",
+    "timestamp": "2024-07-08T17:31:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "high",
+    "customer_satisfaction": "-0.5245",
+    "thread_id": "aa014-123e4567-e89b-12d3-a456-426614174000",
+    "message_body": "Hi John,\n\nThank you for reaching out. We're looking into this issue and will get back to you with an update as soon as possible.\n\nBest regards,\nAetheros Support"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008c3"
+    },
+    "subject": "Inquiry about IAM service role inheritance",
+    "sender": "isiah_rippin@koelpin.net",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T17:37:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": 0.9876,
+    "thread_id": "aa008-98d7f743-742c-4995-9c0d-a954042b8676",
+    "message_body": "Hi Aetheros Support,\n\nI'm evaluating your IAM service for our web application and had a question about role inheritance. \n\nSpecifically, if we define a parent role with certain permissions, can we create child roles that inherit those permissions and also have additional, specific permissions?\n\nCould you please provide some documentation or examples of how this works in practice?\n\nThanks,\nIsiah Rippin"
+  },
+  {
+    "_id": {
+      "$oid": "66607efdf018b325b260053f"
+    },
+    "subject": "API Monitoring Dashboard - Widget Question",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T17:48:00Z",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.8893,
+    "thread_id": "aa001-8d7a6b3c-2ab8-464a-9a5f-48738901f7e9",
+    "message_body": "Hi Aetheros Support,\n\nI have a quick question about the API Monitoring dashboard. Is it possible to customize the widgets displayed, and if so, how can I do that?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607efdf018b325b2600542"
+    },
+    "subject": "API Monitoring - Unusual Latency Spikes",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T18:41:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI've been noticing some unusual latency spikes with my API over the past few days.  It's not consistent, but it's happening frequently enough to be concerning.\n\nCould you take a look and see if there's anything on the monitoring side that might be causing this?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa001-781e9892-6d9b-4033-90c2-66b84818894c",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.4798
+  },
+  {
+    "_id": {
+      "$oid": "66607f08f018b325b2600551"
+    },
+    "subject": "Urgent: Users unable to access resources with newly defined roles",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T19:18:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.6239,
+    "thread_id": "aa002-34e45142-f87b-4824-a26d-9124e26d1c47",
+    "message_body": "We've recently implemented some new roles and permissions using Aetheros IAM, and we're encountering a critical issue.  Users assigned to these new roles are unable to access the resources they should have access to. \n\nWe've double-checked the role configurations and they appear to be correct. Could this be a bug or propagation delay within the system? This is a high priority issue as it's impacting our production environment.\n\nPlease advise as soon as possible on how to resolve this."
+  },
+  {
+    "_id": {
+      "$oid": "66607f13f018b325b260057e"
+    },
+    "subject": "Urgent Issue: API Monitoring Alerts Not Triggering & IAM Role Discrepancy",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-08T19:52:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe are experiencing two critical issues with our Aetheros implementation:\n\n**1. API Monitoring Alerts Not Triggering:**\nOur API monitoring setup has stopped triggering alerts for critical errors. We've confirmed the alert conditions are still valid and our APIs are experiencing these errors, but no alerts are being generated or sent.\n\n**2. IAM Role Permissions Not Applying:**\nWe recently updated permissions for a specific IAM role, but the changes aren't reflecting in our environment. Users assigned to this role are still able to access resources they shouldn't have access to.\n\nThis is causing significant disruption to our operations. We require urgent assistance to resolve these issues.\n\nPlease advise on the next steps for troubleshooting and resolution.\n\nSincerely,\nJohn Doe",
+    "thread_id": "aa003-f879986b-e18b-490a-a30a-27e19367758c",
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring",
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": 0.2132,
+    "email_types": [
+      "issue"
+    ]
+  }
+]

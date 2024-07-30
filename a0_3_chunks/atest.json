@@ -1,0 +1,23 @@
+[  {
+    "_id": {
+      "$oid": "66630362bbd438f7cb54589b"
+    },
+    "subject": "Re: Urgent: Security Group Misconfiguration Causing Outage",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-20T14:36:00Z",
+    "message_body": "the requested information is provided in the below attached document of this email",
+    "thread_id": "aa012-f809b667-9804-42a4-8d75-5a7a7d58845a",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.0501
+  }]

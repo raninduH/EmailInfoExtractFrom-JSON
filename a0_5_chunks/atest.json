@@ -1,0 +1,23 @@
+[  {
+    "_id": {
+      "$oid": "66607f42f018b325b26007ad"
+    },
+    "subject": "Re: URGENT: Mercury Deployment Failing on Aetheros Cloud",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-06-30T19:22:00Z",
+    "message_body": "Hi Support Team,\n\nHere is the information you requested:\n\n* Error Message: \"Resource Limit Exceeded: Instance Type - m5.xlarge\"\n* Error code, Application ID, user region and Screenshot of resource limits attached.\n\nThanks,\nJohn",
+    "thread_id": "aa007-8e296377-d39a-41d4-8772-03934f6655a1",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Mercury Language",
+      "Cloud management"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.0324
+  }]

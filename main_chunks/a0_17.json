@@ -1,0 +1,2251 @@
+[
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26008fe"
+        },
+        "subject": "Re: API Monitoring Dashboard Discrepancy",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:10:03Z",
+        "message_body": "Dear John,\n\nThank you for providing the additional information. We have investigated the issue and identified a temporary glitch in our monitoring system that was causing the discrepancies in the reported response times. \n\nWe have now resolved this issue, and your dashboard should be reflecting accurate data. We apologize for any inconvenience this may have caused.\n\nPlease let us know if you have any further questions.\n\nSincerely,\nAetheros Support Team",
+        "thread_id": "aa008-8f48758b-0a4f-4cf9-8d4d-26148771334a",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": -0.5136
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26008d0"
+        },
+        "subject": "Re: Urgent Issue with Mercury Language - Parsing Error in Production",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:11:02Z",
+        "message_body": "Dear John,\n\nThank you for providing the additional details. Our team has investigated the issue, and we have identified that the parsing error is related to a known bug in the Mercury language version 1.2.3 that is triggered by a specific compiler optimization introduced in the latest Ubuntu update. \n\nWe have developed a patch for this bug in the upcoming Mercury language version 1.2.4, which will be released within the next 24 hours. In the meantime, you can apply a temporary workaround by disabling the problematic compiler optimization in your server's environment.\n\nTo disable the compiler optimization, please follow these steps:\n\n1. Open the terminal and log in as root.\n2. Edit the Mercury language configuration file by running the command: `sudo nano /etc/mercury/mercury.conf`\n3. Locate the line `optimization-level=3` and change it to `optimization-level=2`.\n4. Save the file and exit the editor.\n5. Restart the Mercury language service by running the command: `sudo systemctl restart mercury`\n\nThis workaround will disable the problematic compiler optimization and should resolve the parsing error. Please note that disabling this optimization might slightly impact the performance of your Mercury code.\n\nWe apologize for any inconvenience this issue may have caused and appreciate your patience as we work to resolve it permanently with the upcoming release. \n\nPlease let us know if you have any questions or need further assistance.\n\nSincerely,\nAetheros Support Team",
+        "thread_id": "aa008-72d3e77c-52fa-4d21-a883-56a61c2d47a2",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.6338
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdc54"
+        },
+        "subject": "Re: URGENT: IAM Role Issues Causing API Gateway Errors - Update",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@examplecorp.com",
+        "timestamp": "2023-10-27T14:11:02Z",
+        "message_body": "We have identified an issue with our IAM service in the 'us-east-1' region that might be causing the authorization failures you described. Our engineers are working on a fix.  We will keep you updated on the progress and estimated time of resolution.",
+        "thread_id": "aa011-e374f29a-0279-4c79-a577-890409e49c67",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "Cloud management",
+            "IAM service",
+            "API monitoring"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.2
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb54590d"
+        },
+        "subject": "Re: URGENT: Users unable to access critical API endpoints - IAM misconfiguration suspected",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@examplecorp.com",
+        "timestamp": "2023-10-27T14:11:02Z",
+        "message_body": "Dear John,\n\nWe are still investigating the issue. We will update you as soon as we have more information. \n\nSincerely,\nAetheros Support Team",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "high",
+        "product_types": [
+            "IAM service",
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.2443,
+        "thread_id": "aa012-432e738a-f1e7-454a-a398-63822613695d"
+    },
+    {
+        "_id": {
+            "$oid": "66630824bbd438f7cb5459d4"
+        },
+        "subject": "Re: Urgent issue with API response times - Acme Corp",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@acmecorp.com",
+        "timestamp": "2023-10-27T14:11:02Z",
+        "message_body": "Dear John,\n\nWe have identified the issue and implemented a fix. API response times should now be back to normal. \n\nWe sincerely apologize for the extended downtime and any inconvenience caused.\n\nPlease let us know if you experience any further problems. \n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa013-8d7e721a-3511-4a41-956a-789012345678",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": 0.1513
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb54586b"
+        },
+        "subject": "Re: URGENT: Our API is returning 500 errors!",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:11:03Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.4401,
+        "thread_id": "aa012-72e54c2f-381a-403c-9203-34f62a717882",
+        "message_body": "Dear John,\n\nThank you for providing the additional information. We have identified the issue and our team is working on a fix. We will keep you updated on the progress.\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f2cf018b325b26005e5"
+        },
+        "subject": "Re: URGENT: Mercury Code Deployment Failing with Error 502",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:11:21Z",
+        "message_body": "Hi John,\n\nWe have identified the issue. There was a temporary outage in our service that was causing the 502 error. The issue has now been resolved. Please try deploying your code again, and it should work as expected. \n\nWe apologize for any inconvenience this may have caused.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa005-6e0a2435-8c3b-4568-850a-6f79a5298d43",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Mercury Language",
+            "API monitoring"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.807
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b26006d2"
+        },
+        "subject": "Re: Question about Cloud Management service",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:11:21Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.3733,
+        "thread_id": "aa006-7e880d82-c534-447d-a894-758e82a37d5a",
+        "message_body": "Hi John,\n\nYes, our Cloud Management service fully supports automatic scaling for [Specific cloud provider] instances. You can configure it through the platform's dashboard or via our API.\n\nLet me know if you have any other questions.\n\nKind regards,\nAetheros Support"
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb86"
+        },
+        "subject": "Re: Urgent Issue with API Response Times - Aetheros API Integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:11:21Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "high",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": "-0.1526",
+        "thread_id": "aa011-3d141c86-5257-4c16-972d-8f9a47505a0c",
+        "message_body": "Thank you for the information. We are currently investigating this issue. We will keep you updated on any progress."
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26008ee"
+        },
+        "subject": "Re: Urgent: Users unable to access resources - IAM Issue",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:11:22Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.2491,
+        "thread_id": "aa008-34e45177-7d5c-4e81-a28f-2d9c82f86776",
+        "message_body": "We're glad to hear you were able to resolve the issue. Please don't hesitate to contact us if you have any further questions."
+    },
+    {
+        "_id": {
+            "$oid": "66607efdf018b325b2600536"
+        },
+        "subject": "Re: URGENT: User Permission Errors in Production API",
+        "sender": "support@aetheros.com",
+        "receiver": "kenneth77@davis-becker.com",
+        "timestamp": "2023-10-27T14:11:32Z",
+        "message_body": "We have identified the issue and our engineers are working on a fix. We found an inconsistency in how role assignments were being applied after recent updates to the IAM service. We will keep you updated on the progress and provide an estimated time for resolution shortly.",
+        "thread_id": "aa001-550e8400-e29b-41d4-a716-446655440000",
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API Development",
+            "IAM service"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.6918,
+        "email_types": [
+            "issue"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b2600635"
+        },
+        "subject": "Re: URGENT: Mercury Language Compiler Errors and API Gateway Timeouts",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@examplecorp.com",
+        "timestamp": "2023-10-27T14:12:01Z",
+        "message_body": "Dear John,\n\nWe have analyzed the logs you provided. It seems the issue stems from an incompatibility between Mercury runtime version 1.2.0 and the latest API gateway configuration. To resolve this, we recommend upgrading your Mercury runtime to version 1.2.6, which includes a fix for this incompatibility. \n\nPlease let us know if you face any issues with the upgrade or if the problem persists afterward.\n\nSincerely,\nThe Aetheros Support Team",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Mercury Language",
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": "-0.3592",
+        "thread_id": "aa006-837492d1-a643-432a-9f21-67c12d3e5678"
+    },
+    {
+        "_id": {
+            "$oid": "6663094abbd438f7cb545add"
+        },
+        "subject": "Re: URGENT: Cloud Deployment Failure with Mercury and Resource Limits",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:05Z",
+        "message_body": "Dear John,\n\nThank you for providing the additional information. We have identified an issue on our end that is causing unexpected resource constraints with Mercury deployments in your region.\n\nOur engineers are currently working to resolve this issue with the highest priority. We will keep you updated on the progress and estimated resolution time.\n\nWe sincerely apologize for the inconvenience this issue has caused and appreciate your patience as we work to resolve it.\n\nSincerely,\nAetheros Support Team",
+        "thread_id": "aa015-e87a282b-0c4e-4693-9753-d98252a335c8",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Cloud Management",
+            "Mercury Language"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": "-0.495"
+    },
+    {
+        "_id": {
+            "$oid": "66607f42f018b325b2600741"
+        },
+        "subject": "Re: Question about Cloud Management auto-scaling",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:54.612Z",
+        "message_body": "Hi John,\n\nThank you for reaching out to Aetheros Support. We're happy to help clarify how auto-scaling works with our Cloud Management service.\n\nBy default, the system monitors CPU utilization, memory usage, and network traffic to determine when to scale your resources up or down. You have the ability to configure these thresholds and even define custom metrics based on your application's specific needs within the Cloud Management dashboard. \n\nYou can find more detailed information and step-by-step instructions on setting up and customizing auto-scaling in our documentation: [Link to documentation]\n\nPlease let us know if you have any further questions or require additional assistance.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa007-56e7d727-8094-4e86-9a3d-469608c48f9c",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.8579
+    },
+    {
+        "_id": {
+            "$oid": "66607efdf018b325b260053e"
+        },
+        "subject": "RE: Improvement Suggestion for API Development Process",
+        "sender": "support@aetheros.com",
+        "receiver": "isabella78@samplemail.com",
+        "timestamp": "2023-10-27T14:12:54Z",
+        "message_body": "Dear Isabella,\n\nThank you for your valuable feedback! We appreciate you taking the time to share your suggestion regarding the API error code documentation.\n\nWe agree that having more comprehensive information would be beneficial for our users. We've added this to our development roadmap and will be working on improving the error code documentation in the coming weeks.\n\nIn the meantime, please don't hesitate to reach out if you encounter any specific error codes that you need clarification on. We're always happy to help.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa001-7357e87c-8656-4e41-a703-f20320e829b2",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": -0.7327
+    },
+    {
+        "_id": {
+            "$oid": "66607f08f018b325b2600550"
+        },
+        "subject": "Re: API Monitoring Dashboard Improvement Suggestion",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:54Z",
+        "message_body": "Dear John,\n\nThank you for your email and for the valuable feedback! We appreciate you taking the time to share your thoughts on how we can improve our API monitoring dashboard. \n\nYour suggestion about visualizing min, max, and percentile response times is excellent, and we agree it would provide a more comprehensive view of API performance. We've added it to our development roadmap, and our team will explore the best way to implement this enhancement.\n\nWhile we can't provide an exact timeline for implementation, we'll keep you updated on our progress.\n\nIn the meantime, if you have any other suggestions or questions, please don't hesitate to contact us.\n\nSincerely,\nThe Aetheros Support Team",
+        "thread_id": "aa002-d19c9e05-226c-420f-9202-b75789128964",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API monitoring",
+            "Cloud management"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.6324
+    },
+    {
+        "_id": {
+            "$oid": "66607f42f018b325b260074e"
+        },
+        "subject": "Re: Mercury Language Deployment Issue on AWS",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:56Z",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support.\n\nWe understand you are experiencing difficulties deploying your Mercury language application to AWS using our Cloud Management service.\n\nTo help us investigate this issue further, could you please provide us with the following information:\n\n* The specific error message you are encountering\n* The steps you have taken to try and resolve the issue\n* Your Aetheros account ID\n\nOnce we have this information, we will be able to assist you further.\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa007-e1d1e09f-509f-462c-92bd-59034496a2fd",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language",
+            "Cloud management"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.4
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb5458a9"
+        },
+        "subject": "Re: Suggestion for Cloud Management Dashboard",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:56Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.6393,
+        "thread_id": "aa012-8675309e-5a6d-412c-b859-026ff0915c7a",
+        "message_body": "Dear John,\n\nThank you for your email and your suggestion. We appreciate you taking the time to share your feedback with us.\n\nWe're always looking for ways to improve our services, and your suggestion for a more visual representation of resource usage and costs on the Cloud Management dashboard is a great one. We'll pass this feedback along to our development team for consideration.\n\nIn the meantime, please let us know if you have any other questions or concerns.\n\nSincerely,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb545908"
+        },
+        "subject": "Re: Mercury Language Integration with Custom IAM Roles",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:57Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "Mercury Language",
+            "IAM service"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": 0.2488,
+        "thread_id": "aa012-8976f16a-879d-4a34-a04b-244833739c3c",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support.\n\nWe understand you're interested in integrating Mercury with your custom IAM solution. While Mercury doesn't natively support direct integration with external IAM systems for fine-grained access control, we do offer several options to achieve similar functionality.\n\nCould you please provide some details about your custom IAM solution and the specific roles and permissions you're looking to manage within Mercury?\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb82"
+        },
+        "subject": "Re: Suggestion for Cloud Management Dashboard Improvement",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58.675Z",
+        "message_body": "Dear John,\n\nThank you for your valuable feedback! We appreciate you taking the time to share your suggestion for the Cloud Management dashboard.\n\nWe understand how a real-time resource usage graph on the main dashboard would enhance your monitoring experience. We've added your request to our development roadmap, and our team will be exploring its feasibility in upcoming sprints.\n\nWe'll keep you informed about any updates on this feature implementation.\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa011-e4834739-762a-4d13-8536-10d46c839a21",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.6982
+    },
+    {
+        "_id": {
+            "$oid": "66607f42f018b325b26007a2"
+        },
+        "subject": "Re: API Monitoring - Suggestion for Improvement",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58Z",
+        "message_body": "Dear John,\n\nThank you for your email and your valuable suggestion regarding our API monitoring service. We appreciate you taking the time to share your feedback with us.\n\nWe understand the importance of a customizable alerting system and agree that it would greatly enhance our platform's functionality. Your suggestion has been forwarded to our product development team for further consideration and prioritization in our roadmap.\n\nWhile we cannot provide a specific timeline for implementation at this time, we will keep you informed of any developments regarding this feature.\n\nIn the meantime, if you have any further suggestions or questions, please don't hesitate to contact us.\n\nSincerely,\nAetheros Support",
+        "thread_id": "aa007-34e1d3c1-a22f-4808-869d-502e9f29a257",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.7259
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdbbe"
+        },
+        "subject": "Re: Mercury Language - Question about Asynchronous Processing",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58Z",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support.\n\nWe understand you're interested in using asynchronous processing within Mercury Language for your API calls. We're currently working on enhancing our documentation in this area to provide more detailed examples and best practices.\n\nIn the meantime, could you please elaborate on the specific API calls you're making and the desired outcome you're trying to achieve? This will help us understand your needs better and offer more tailored guidance.\n\nSincerely,\nThe Aetheros Support Team",
+        "thread_id": "aa011-e82d754f-8b54-4891-b87d-94216962a4d7",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": -0.1279
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb545820"
+        },
+        "subject": "Re: Mercury Deployment Issue on Aetheros Cloud",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58Z",
+        "message_body": "Hi John,\n\nThank you for contacting Aetheros Support.\n\nWe understand you're experiencing issues deploying your Mercury application. To better assist you, could you please provide more details about your deployment environment, including:\n\n* Which region are you deploying to?\n* What version of the Aetheros CLI are you using?\n* Have you successfully deployed this application before?\n\nOnce we have this information, we can investigate further.\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa012-89a5167f-d24b-422c-a204-19845e80e336",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management",
+            "Mercury Language"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.1366
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb54594b"
+        },
+        "subject": "Re: URGENT: Mercury SDK Crashing Production API",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58Z",
+        "message_body": "Dear John,\n\nThank you for providing the information. Our engineers have identified a known issue with Mercury SDK version 2.3.1 that can cause crashes under certain load balancing configurations. \n\nWe recommend upgrading to the latest version of the SDK (2.3.2), which includes a fix for this issue. You can download it from our website [link].\n\nPlease let us know if you encounter any further problems.\n\nSincerely,\nAetheros Support",
+        "thread_id": "aa012-d910189f-421c-4b8d-9557-6b4a9e7856ce",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API Development",
+            "Mercury Language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.6747
+    },
+    {
+        "_id": {
+            "$oid": "66630370bbd438f7cb545966"
+        },
+        "subject": "Re: Question about API Development Services",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58Z",
+        "message_body": "Dear John,\n\nThank you for your interest in Aetheros API development services. We'd be happy to provide you with more information.\n\nWe have a proven track record of developing robust and scalable APIs for e-commerce platforms. Our team utilizes the latest technologies and best practices to ensure your API is secure and performs optimally. We can also discuss incorporating our Mercury language to potentially expedite the development process.\n\nTo better understand your specific needs, could you tell us a little more about your e-commerce platform and the functionalities you envision for your new API?\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa014-93680d4a-b56c-4364-9a68-858819824a29",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.595
+    },
+    {
+        "_id": {
+            "$oid": "66630824bbd438f7cb5459d6"
+        },
+        "subject": "Re: Mercury Language Documentation Issue",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58Z",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you are experiencing difficulties with the Mercury language documentation.\n\nCan you please provide more details about your specific use case and what kind of error handling you are trying to implement? This will help us better understand your needs and provide a more accurate solution.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa013-e3084575-b5d8-43c2-a88b-70f125f8c623",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.6135
+    },
+    {
+        "_id": {
+            "$oid": "6663094abbd438f7cb545ac5"
+        },
+        "subject": "Re: Suggestion for IAM Service Role Management",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:12:58Z",
+        "message_body": "Dear John,\n\nThank you for your email and suggestion. We appreciate you taking the time to provide us with your feedback. \n\nWe understand how searching for roles based on specific permissions would be a valuable feature, and we've added it to our development roadmap. We can't give you an exact timeline for implementation, but we'll be sure to keep you updated on our progress.\n\nIn the meantime, please don't hesitate to reach out if you have any further questions or suggestions.\n\nSincerely,\nThe Aetheros Support Team",
+        "thread_id": "aa015-3d55c127-70b0-408b-9301-884c6c58f5e3",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.6507
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26007c6"
+        },
+        "subject": "Re: URGENT: Users randomly losing access to critical resources",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:01Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": -0.6659,
+        "thread_id": "aa008-34e4514f-737c-4638-a709-8256a1600e2c",
+        "message_body": "We have identified the issue and are working on a fix. We will keep you updated on the progress."
+    },
+    {
+        "_id": {
+            "$oid": "6663094abbd438f7cb545a7b"
+        },
+        "subject": "Re: Urgent: Access Denied to Critical APIs - Impacting Business Operations",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:02Z",
+        "message_body": "Dear John,\n\nWe have identified the root cause of the access issue and have implemented a fix. Our team found a misconfiguration in the API monitoring system that was incorrectly reporting access attempts. This has been corrected. \n\nCould you please ask the affected users to try accessing the APIs again and confirm if the problem is resolved?\n\nWe apologize for the inconvenience this issue has caused. \n\nSincerely,\nAetheros Support Team",
+        "thread_id": "aa015-d2f4864b-5d8f-4205-a468-36565034c91d",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API monitoring",
+            "IAM service"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.2602
+    },
+    {
+        "_id": {
+            "$oid": "66608331f018b325b2600942"
+        },
+        "subject": "Re: Question about user roles and Cloud resources",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:12Z",
+        "message_body": "Hi John,\n\nThank you for contacting Aetheros Support. We are looking into your query and will get back to you soon.\n\nBest regards,\nAetheros Support",
+        "thread_id": "aa009-8b6a4d1c-0389-441c-a11f-61e76b43d3ec",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management",
+            "IAM service"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.6597
+    },
+    {
+        "_id": {
+            "$oid": "66630370bbd438f7cb545984"
+        },
+        "subject": "Re: IAM Role Permissions Issue",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:12Z",
+        "message_body": "Hello John,\n\nThank you for contacting Aetheros Support. \n\nWe understand you're experiencing difficulties configuring permissions for your API endpoints within the IAM service. To assist you effectively, could you please provide us with the following information:\n\n* The specific name of the role you're trying to configure.\n* The names of the API endpoints you want to grant access to.\n* A screenshot of the permissions options you're seeing for that role.\n\nOnce we have this information, we'll be able to investigate further and provide a solution.\n\nBest regards,\nThe Aetheros Support Team",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.0862,
+        "thread_id": "aa014-e2f5584b-9c76-45d6-a387-2745c3e2805d"
+    },
+    {
+        "_id": {
+            "$oid": "6663094abbd438f7cb545ab5"
+        },
+        "subject": "Re: API Monitoring - Intermittent Latency Spikes",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:12Z",
+        "message_body": "Hello John,\n\nThank you for reaching out. We are looking into the intermittent latency spikes you reported. \n\nTo help us diagnose the issue, could you please provide us with the following information:\n\n* Approximate times the latency spikes occurred\n* Any specific endpoints that were affected\n* Screenshots of the performance metrics from our platform during the latency spikes\n\nWe will investigate this further and get back to you as soon as possible.\n\nBest regards,\nAetheros Support",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.1225,
+        "thread_id": "aa015-730aa652-68d2-48a4-a9a2-f5c42c6143a4"
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b26006d4"
+        },
+        "subject": "Re: Mercury Language - Difficulty Integrating with Existing API",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21.987Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "Mercury Language",
+            "API Development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.4544,
+        "thread_id": "aa006-e31f179b-89b3-4291-894b-3d86a8999123",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros support. We understand you are facing challenges integrating Mercury with your Python/Django API.\n\nWe are currently looking into this and will get back to you with further assistance shortly. In the meantime, you can refer to our documentation on Mercury's interoperability features: [link to documentation].\n\nBest regards,\nAetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f08f018b325b260056b"
+        },
+        "subject": "Re: Urgent: Critical IAM Permission Errors Impacting Production",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API monitoring",
+            "IAM service"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.1788,
+        "thread_id": "aa002-f80e0e4c-d33c-4b8a-b561-926411a6807d",
+        "message_body": "Dear John,\n\nThank you for providing the additional information. Our team has investigated the issue and identified a misconfiguration on our end that was causing the permission errors.\n\nWe have corrected the misconfiguration, and you should now be able to access the affected API endpoints without any issues. We sincerely apologize for the inconvenience caused by this outage.\n\nPlease do not hesitate to contact us if you have any further questions.\n\nSincerely,\nAetheros Support"
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b2600682"
+        },
+        "subject": "Re: Suggestion for API Monitoring Dashboard",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21Z",
+        "message_body": "Dear John,\n\nThank you for your email and for the suggestion regarding our API Monitoring dashboard. We appreciate you taking the time to share your feedback with us. \n\nWe understand how valuable customizable dashboards are, and we've actually received similar feedback from other users. We're happy to inform you that we are currently developing new features for the dashboard, including the ability to customize widgets and display specific metrics.\n\nWe don't have an exact release date yet, but we'll be sure to announce it once it's available. In the meantime, please let us know if you have any other suggestions or questions.\n\nSincerely,\nAetheros Support Team",
+        "thread_id": "aa006-4d2a532c-8c6e-40d4-927b-5a64c25f72e8",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.1142
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb4b"
+        },
+        "subject": "Re: Intermittent Delays in API Response Times",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API monitoring",
+            "Cloud management"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.3494,
+        "thread_id": "aa011-f80e0665-49e5-4d39-826d-9392a366b845",
+        "message_body": "Hi John,\n\nThank you for contacting Aetheros Support.\n\nWe understand you are experiencing intermittent delays in your API response times. We'll need some more information to investigate this issue further. Could you please provide us with the following:\n\n* A list of the affected endpoints\n* The approximate time periods when the delays occurred\n* Any error messages you encountered\n\nOnce we have this information, we'll be able to look into this for you.\n\nBest regards,\nAetheros Support"
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb545823"
+        },
+        "subject": "Re: Issue with Mercury Language Permissions",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21Z",
+        "message_body": "Hi John,\n\nThank you for contacting Aetheros Support. \n\nTo achieve read-only access in your Mercury Language project, you'll need to utilize the built-in `DataObserver` role within our IAM service. When defining permissions for your user role, ensure you grant them the `DataObserver` role for the specific data resources they need to access. This role inherently allows reading data but restricts any modifications.\n\nPlease let us know if you encounter any further issues or have additional questions.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa012-d25e140d-600d-4a98-a713-8f5a27719614",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language",
+            "IAM service"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.8895
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb5458fd"
+        },
+        "subject": "Re: Question about API endpoint behavior",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21Z",
+        "message_body": "Hello John,\n\nThank you for reaching out to us. You are absolutely correct, the current implementation of the '/products' endpoint does not return the product ID in the response for security reasons. \n\nWe are aware that this can be inconvenient and we are working on a solution to provide a secure way to access the newly created ID in a future update.\n\nAs a workaround, you can retrieve the product ID by making a GET request to the '/products' endpoint and filtering by the product name or other unique identifier you used during creation.\n\nWe apologize for the inconvenience. Please let us know if you have any further questions.\n\nBest Regards,\nThe Aetheros Support Team",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.4262,
+        "thread_id": "aa012-8b44683a-3233-4c69-977b-91799820f6d8"
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb5458ef"
+        },
+        "subject": "Re: Urgent assistance needed with Mercury language integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21Z",
+        "message_body": "Dear John,\n\nThank you for reaching out to us. We understand you are facing difficulties utilizing the advanced features of Mercury for your custom API development. To better assist you, could you please provide us with more details about the specific challenges you are encountering? Some helpful information includes:\n\n* Which specific advanced features are you struggling with?\n* Could you share the relevant code snippets where you are facing issues?\n* What is the expected outcome, and what are you experiencing instead?\n\nOnce we have a clearer understanding of your specific issues, we can provide you with more tailored guidance and support.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa012-899c4508-2c25-4d3b-a590-24e06211d513",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development",
+            "Mercury language"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.76
+    },
+    {
+        "_id": {
+            "$oid": "66630370bbd438f7cb545976"
+        },
+        "subject": "Re: Question about Mercury Language Error Handling",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:21Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.8894,
+        "thread_id": "aa014-e374f5a1-0045-4544-a0a6-3276d2d172ce",
+        "message_body": "Hello John,\n\nThank you for reaching out to Aetheros Support. We apologize for the delay in response.\n\nWe understand you are experiencing difficulties with error handling in Mercury. To better assist you, could you please provide a snippet of the code block where you are facing issues?\n\nWe are happy to provide further assistance once we have a clearer understanding of your specific scenario.\n\nBest regards,\nAetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b2600646"
+        },
+        "subject": "Re: Problem adding new team to project in IAM",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22.901Z",
+        "message_body": "Hello John,\n\nThank you for contacting Aetheros Support. \n\nTo help you further, could you please provide us with more details about the issue? Specifically:\n\n* What is the name of the project?\n* What roles have you assigned to the new team?\n* What resources are they unable to access?\n\nOnce we have this information, we can investigate further.\n\nBest regards,\nAetheros Support",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.0023,
+        "thread_id": "aa006-e312e371-38a0-4e45-947c-f232218698b2"
+    },
+    {
+        "_id": {
+            "$oid": "66607efdf018b325b2600530"
+        },
+        "subject": "Re: Mercury Language Documentation Issue",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support. We understand you are experiencing difficulties finding the correct documentation for custom error handling in Mercury.\n\nWe are currently updating our documentation portal and apologize for any inconvenience this may cause. In the meantime, could you please provide us with the version of Mercury you are using? This will help us direct you to the most relevant information.\n\nSincerely,\nThe Aetheros Support Team",
+        "thread_id": "aa001-8e561ac9-8523-421f-9d05-e4c2a80a26d7",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.9043
+    },
+    {
+        "_id": {
+            "$oid": "66607f13f018b325b26005a0"
+        },
+        "subject": "Re: Question about API rate limits",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.721,
+        "thread_id": "aa003-e49312e1-705f-4a7c-855b-1a8d80c172c4",
+        "message_body": "Hello John,\n\nThank you for reaching out to Aetheros Support. We are happy to assist you with your inquiry about API rate limits. \n\nCould you please provide your account ID or the email address associated with your Aetheros account so we can look into your specific subscription details? \n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26007eb"
+        },
+        "subject": "Re: Scaling Issue with Cloud Instance - Instance ID: i-0a1b2c3d4e5f6g7h8",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.1784,
+        "thread_id": "aa008-550e8400-e29b-41d4-a716-446655440000",
+        "message_body": "Dear John,\n\nThank you for reaching out. We understand you're experiencing scaling issues with your cloud instance.\n\nTo assist you effectively, could you please provide us with the following information:\n\n* What scaling options are you currently utilizing?\n* Can you share the performance metrics you're observing during peak hours?\n* Have any recent changes been made to your application or infrastructure?\n\nOnce we have this information, we can investigate further and provide tailored recommendations.\n\nBest regards,\nAetheros Support"
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b2600812"
+        },
+        "subject": "Re: High Latency Issues with Our API",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Hi John,\n\nThank you for contacting Aetheros Support.\n\nWe understand you're experiencing high latency issues with your API. We're looking into it and will get back to you as soon as we have an update.\n\nBest regards,\nAetheros Support",
+        "thread_id": "aa008-4c795626-7622-468f-954f-396d555b148d",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development",
+            "API monitoring"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.5149
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26008dd"
+        },
+        "subject": "Re: Mercury Language - Null Pointer Exception in Lambda Expression",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Hi John,\n\nThank you for reaching out to Aetheros Support. We understand you are experiencing a Null Pointer Exception while using lambda expressions in Mercury.\n\nTo help us investigate further, could you please provide the following:\n\n* The complete error message and stack trace\n* The definition of the objects within `someList`\n* The version of the Mercury language you are currently using\n\nOnce we have this information, we'll be able to assist you more effectively.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa008-4d91b46e-1a4a-4425-9238-e0e278efb571",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.2458
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdc28"
+        },
+        "subject": "Re: Scaling Issues with Our API on Aetheros Cloud",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you are facing performance issues with your API hosted on our platform. We're here to help.\n\nTo assist us in investigating this issue further, could you please provide us with the following information:\n\n*  The approximate times and dates when you experienced the performance issues.\n*  Any error messages you encountered.\n*  Your API's current scaling configuration on Aetheros Cloud.\n\nOnce we have this information, we can begin our investigation and work towards a resolution.\n\nBest Regards,\nAetheros Support Team",
+        "thread_id": "aa011-e2968a76-6914-421e-8343-477409c4516c",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development",
+            "Cloud management"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": "-0.5052"
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb545870"
+        },
+        "subject": "Re: Suggestion: Enhance Cloud Management Dashboard with Resource Cost Breakdown",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Dear John,\n\nThank you for your email and the suggestion. We appreciate you taking the time to provide this feedback. We will review your suggestion and see if it is something we can implement in the future. \n\nBest Regards,\nThe Aetheros Support Team",
+        "thread_id": "aa012-70f8d43b-591c-4298-8a55-44e8a3d130f3",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "high",
+        "product_types": [
+            "Cloud Management"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.6866
+    },
+    {
+        "_id": {
+            "$oid": "66630370bbd438f7cb54595b"
+        },
+        "subject": "Re: Mercury Language Role Permission Issue",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Hi John,\n\nThank you for contacting Aetheros Support. We understand you're experiencing difficulties integrating IAM roles with your Mercury project.\n\nCould you please provide us with the following information so we can assist you better?\n\n* A code snippet showing how you're defining roles and permissions within your Mercury code.\n* The configuration of your IAM roles and how you've assigned users to them.\n* Any error messages you are encountering.\n\nOnce we have this information, we'll be able to investigate further and provide a solution.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa014-8976a3a2-d86a-4e6a-9683-73d58b256251",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language",
+            "IAM service"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.5554
+    },
+    {
+        "_id": {
+            "$oid": "6663094abbd438f7cb545a64"
+        },
+        "subject": "Re: Mercury Language Documentation Question",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Hi John,\n\nThank you for reaching out.  We're happy to help!  Can you please provide the specific endpoint URL you are working with? This will allow us to better understand your context and provide more tailored guidance.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa015-897a8e4b-ef9d-4445-9f5f-c35c0d72a042",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.6385
+    },
+    {
+        "_id": {
+            "$oid": "6663094abbd438f7cb545a71"
+        },
+        "subject": "Re: Problem with Mercury Language Compiler",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support.\n\nWe have received your email and are looking into the issue you reported. We will get back to you as soon as possible with an update.\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa015-897a2b7b-c092-4d4f-9e9c-76e7b2190c63",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.4933
+    },
+    {
+        "_id": {
+            "$oid": "6663094abbd438f7cb545a77"
+        },
+        "subject": "Re: Suggestion for Cloud Management Dashboard",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:22Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.7712,
+        "thread_id": "aa015-3f4e425b-952f-4d8a-a989-d4557e6c5c44",
+        "message_body": "Dear John,\n\nThank you for reaching out to us with your suggestion for improving the Cloud Management dashboard. We appreciate you taking the time to share your feedback.\n\nWe understand the value of having more detailed and customizable visualizations for resource usage. We've taken note of your suggestions and will be discussing them with our product team for future development considerations.\n\nIn the meantime, would you be open to scheduling a quick call to discuss your specific needs and use cases in more detail? This would help us better understand how we can optimize the dashboard to meet your requirements.\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f42f018b325b2600760"
+        },
+        "subject": "Re: Inquiry about API development and IAM integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:23.123Z",
+        "message_body": "Dear John,\n\nThank you for your interest in Aetheros! We're happy to provide more information about our API development and IAM services.\n\nYou can find detailed documentation on our website about how to integrate our IAM service with custom APIs. We also have several pre-built connectors and libraries that can simplify the integration process. \n\nLet me know if you have other questions.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa007-3d1c4da1-049d-456b-b596-791d92c148a2",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "API development",
+            "IAM service"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.5041
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb54581e"
+        },
+        "subject": "Re: Suggestion for API Development and IAM Integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:23Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API development",
+            "IAM service"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.4883,
+        "thread_id": "aa012-8675309a-1234-5678-9abc-def012345678",
+        "message_body": "Dear John,\n\nThank you for your email and suggestion. We appreciate you taking the time to share your thoughts on how we can improve our services.\n\nWe will certainly discuss your suggestion about integrating API key generation within IAM roles with our development team. This sounds like a valuable feature that could benefit many of our users. \n\nWe will get back to you as soon as we have more information on the feasibility and potential timeline for implementing this feature.\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b260080c"
+        },
+        "subject": "Re: Question about IAM role inheritance",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:32Z",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support.\n\nTo answer your question, yes, if you revoke a permission from a parent role, that change will also apply to any child roles that inherit from it. Inheritance in our IAM service is dynamic, meaning that child roles always reflect the current state of their parent roles.\n\nLet me know if you have any other questions or need further clarification.\n\nSincerely,\nThe Aetheros Support Team",
+        "thread_id": "aa008-7263a547-d2a2-4699-89b2-688381774835",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.0364
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b260087f"
+        },
+        "subject": "Re: Intermittent Latency Spikes on Our Staging Server",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:15:32Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.4257,
+        "thread_id": "aa008-8e71ab22-d194-4f54-b1a6-44c0b8b10996",
+        "message_body": "Dear John,\n\nThank you for reaching out to us. We understand that you're experiencing latency issues on your staging server, and we're here to help.\n\nTo better assist you, could you please provide us with the following information?\n\n* Approximate times and dates when the latency spikes occurred\n* Any error messages or logs you've encountered\n* Details about your staging environment (e.g., instance size, region)\n\nOnce we have this information, we can investigate further and provide a solution.\n\nBest regards,\nAetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdbb8"
+        },
+        "subject": "Re: Urgent: Production Environment Downtime - Instance Scaling Issue",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:16:01Z",
+        "message_body": "Dear John,\n\nWe apologize for the delay in response and the issues you are experiencing. We are currently investigating the issue with instance scaling within the Cloud Management platform. \n\nWe will provide an update as soon as we have more information.\n\nSincerely,\nAetheros Support Team",
+        "thread_id": "aa011-e8c48a49-e5f7-4743-8203-f598601c2e6c",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.3506
+    },
+    {
+        "_id": {
+            "$oid": "66630824bbd438f7cb545a14"
+        },
+        "subject": "Re: Mercury Language Permission Issue",
+        "sender": "support@aetheros.com",
+        "receiver": "isiah_schmeler85@dubuque.com",
+        "timestamp": "2023-10-27T14:17:02.648Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language",
+            "IAM service"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.3861,
+        "thread_id": "aa013-7c359899-e993-42d2-9a2d-a040c25d4d3b",
+        "message_body": "Hello Isiah,\n\nThank you for reaching out to us. We understand you are experiencing issues with applying IAM roles and permissions within your Mercury language project.\n\nTo help us troubleshoot this effectively, could you please provide us with the following information:\n\n* The specific role and permissions you are trying to apply.\n* The relevant code snippet from your Mercury project where you are trying to access the API endpoints.\n* The error message you are receiving, if any.\n\nOnce we have this information, we can investigate further and assist you in resolving this issue.\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb545887"
+        },
+        "subject": "Re: Scaling Issues and API Rate Limiting",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:17:52Z",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you are experiencing rate limiting issues. To assist you better, could you please provide us with your API key and the specific endpoints affected?\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa012-7e53c78a-0021-4f7d-9391-894830abf5b4",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "Cloud management",
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.342
+    },
+    {
+        "_id": {
+            "$oid": "66630824bbd438f7cb545a04"
+        },
+        "subject": "Re: Suggestion for Cloud Management Dashboard",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:18:01Z",
+        "message_body": "Dear John,\n\nThank you for reaching out and providing your valuable feedback regarding the Cloud Management dashboard. We appreciate your suggestion to enhance the resource usage charts with customizable timeframes.\n\nWe understand the importance of granular visibility into resource utilization. Your suggestion aligns with our roadmap for improving the platform's analytics capabilities. While we cannot commit to a specific timeframe for implementation, we have forwarded your feedback to our product team for consideration in future updates.\n\nIn the meantime, if you have any other suggestions or require further assistance, please don't hesitate to contact us.\n\nSincerely,\nThe Aetheros Support Team",
+        "thread_id": "aa013-4d90825f-2113-4e77-8a8a-4037c6849a99",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": -0.6498
+    },
+    {
+        "_id": {
+            "$oid": "66630824bbd438f7cb5459fc"
+        },
+        "subject": "Re: Urgent Issue with API Monitoring - Metrics Not Updating",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:18:03Z",
+        "message_body": "Dear John,\n\nWe have identified the root cause of the issue with your API Monitoring metrics. There was a temporary system-wide glitch that caused a delay in data processing. We have resolved this issue and the metrics are now updating normally.\n\nWe apologize for any inconvenience this may have caused.\n\nPlease let us know if you have any further questions.\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa013-8e5e723a-2e8f-4308-963c-8642a971b259",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.1025
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b2600859"
+        },
+        "subject": "Re: Mercury Language Documentation Question",
+        "sender": "support@aetheros.com",
+        "receiver": "isiah_schmeler64@gmail.com",
+        "timestamp": "2023-10-27T14:18:05.123Z",
+        "message_body": "Hello Isiah,\n\nThank you for reaching out to Aetheros Support. We apologize for the delay in our response.\n\nWe understand you have a question regarding asynchronous calls within Mercury. To better assist you, could you please provide the specific code block you're referring to? This will help us understand the context and provide a more accurate solution.\n\nIn the meantime, you might find the following resource helpful:\n[Link to relevant Mercury documentation]\n\nPlease don't hesitate to provide the code snippet, and we'll be happy to assist further.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa008-8d24a71f-e81b-4d45-a4a5-175914c4122b",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language",
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.9642
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb6d"
+        },
+        "subject": "Re: URGENT: Mercury Language Integration Issue Causing API Downtime",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:18:22Z",
+        "message_body": "Dear John,\n\nThank you for providing the additional information. We have identified the issue. There's a known bug in Mercury Language version 2.5.3 that can cause these kinds of crashes.  \n\nA patch for this issue was released in version 2.5.4. Please update your Mercury Language installation to the latest version, and the issue should be resolved. \n\nWe apologize for the inconvenience caused. Please let us know if you have any further questions.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa011-7e084858-0a3f-4d89-9f9f-348228689f01",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API development",
+            "Mercury Language"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.3092
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb545840"
+        },
+        "subject": "Re: Urgent Issue with IAM Role Permissions",
+        "sender": "support@aetheros.com",
+        "receiver": "John.Doe@example.com",
+        "timestamp": "2023-10-27T14:18:33Z",
+        "message_body": "Dear John,\n\nWe have identified the issue with the DataAnalystRole permissions. There was a misconfiguration in the policy attached to the role that was preventing access to the dashboards and reporting tools.\n\nWe have corrected the misconfiguration, and users assigned to the DataAnalystRole should now be able to access the affected resources.\n\nWe apologize for any inconvenience this issue may have caused.\n\nPlease do not hesitate to contact us if you have any further questions.\n\nSincerely,\nAetheros Support",
+        "thread_id": "aa012-8642d28d-013e-40db-9e67-50f7d5a57a8a",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.571
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b2600834"
+        },
+        "subject": "Re: Inquiry about API Development Services - New Project",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:18:56.456Z",
+        "message_body": "Dear John,\n\nThank you for your interest in Aetheros's API development services. We appreciate you reaching out to us.\n\nWe'll gather some information and get back to you soon regarding your specific questions about our API development process, timelines, and pricing.\n\nIn the meantime, you can find some general information about our API development services on our website: [link to Aetheros API development page]\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa008-f8b25645-7f29-4f23-a91c-53197143a027",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.6579
+    },
+    {
+        "_id": {
+            "$oid": "66607f13f018b325b260058e"
+        },
+        "subject": "Re: Inquiry about Cloud Management and API Development Integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:18:57Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Cloud management",
+            "API development"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.6064,
+        "thread_id": "aa003-550e8400-e29b-41d4-a716-446655440000",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support. We understand you're interested in how our Cloud Management and API Development services work together. We're happy to provide some information.\n\nOur Cloud Management platform is designed to seamlessly integrate with APIs developed using Aetheros. You can easily deploy, manage, and scale your APIs using our intuitive dashboard.\n\nWe're currently working on compiling more detailed documentation and resources specifically addressing the integration points you mentioned. We'll be sure to share these with you as soon as they're available.\n\nIn the meantime, please let us know if you have any other questions.\n\nBest regards,\nAetheros Support"
+    },
+    {
+        "_id": {
+            "$oid": "66607f42f018b325b260071c"
+        },
+        "subject": "Re: Urgent Issue with Cloud Instance Scaling and Mercury Language Deployment - Resolved",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:20:00Z",
+        "message_body": "Dear John,\n\nOur engineers have identified the issue and implemented a fix. The problem stemmed from an outdated IAM role permission that was preventing the deployment of new instances. \n\nWe have updated the role with the correct permissions, and your auto-scaling configuration should now function as expected.\n\nWe apologize for the inconvenience caused and appreciate your patience. Please don't hesitate to contact us if you have any further questions.\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa007-8374927c-a422-4e4c-9876-45321a6bcde5",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "Cloud management",
+            "Mercury Language",
+            "IAM service"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "high",
+        "customer_satisfaction": -0.513
+    },
+    {
+        "_id": {
+            "$oid": "66630370bbd438f7cb54597e"
+        },
+        "subject": "Re: Urgent: API Monitoring Dashboard Downtime and Cloud Instance Unresponsive",
+        "sender": "john.doe@example.com",
+        "receiver": "support@aetheros.com",
+        "timestamp": "2023-10-27T14:20:11Z",
+        "message_body": "Hi Aetheros Support,\n\nIt has been over 24 hours since my initial report, and we still haven't received any updates on the resolution. Our services are severely impacted, and this downtime is unacceptable.\n\nPlease escalate this issue immediately and provide a concrete timeline for resolution.\n\nRegards,\nJohn Doe",
+        "thread_id": "aa014-4d5f787a-4852-47b1-9533-24325147c48a",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "API monitoring",
+            "Cloud management"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": -0.7241
+    },
+    {
+        "_id": {
+            "$oid": "666202d61b4284eae85bdaeb"
+        },
+        "subject": "Re: URGENT: User Permission Errors in Production",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:21:02Z",
+        "message_body": "We have identified the issue in your Mercury script that was causing the permission errors. There was a syntax error in the role update function. We have provided a corrected version of your script below:\n\n```mercury\n[Corrected code snippet]\n```\n\nPlease implement this updated script in your IAM configuration. This should resolve the permission errors you have been experiencing. We apologize for the inconvenience caused by this issue.",
+        "thread_id": "aa010-e342a2d1-23bb-48e2-80a4-733c2a60c687",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "IAM service",
+            "Mercury language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.5228
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdc94"
+        },
+        "subject": "Re: URGENT: Mercury Deployment Failing on Aetheros Cloud",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:21:02Z",
+        "message_body": "Dear John,\n\nOur team has investigated the issue, and it appears there is a known incompatibility with the latest Mercury release and the specific configuration of your production environment. \n\nWe have a hotfix available. Please follow these steps to apply it:\n\n1. ...\n2. ...\n3. ...\n\nWe apologize for the inconvenience. Please let us know if you encounter any further issues. \n\nRegards,\nAetheros Support Team",
+        "thread_id": "aa011-e34f82a3-89b4-4d35-a4b2-5f987c46421a",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Mercury Language",
+            "Cloud Management"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.3685
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb1c"
+        },
+        "subject": "Update: API Monitoring & IAM Role Change Alerts",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@examplecompany.com",
+        "timestamp": "2023-10-27T14:21:08Z",
+        "message_body": "Dear John,\n\nOur engineering team has identified the issue causing the missing alerts for IAM role changes. A recent platform update introduced a bug affecting this specific monitoring feature.\n\nWe have implemented a fix, and our monitoring system is now correctly sending alerts for IAM role modifications.\n\nWe sincerely apologize for the inconvenience caused. To ensure the issue is fully resolved on your end, kindly clear your browser cache and cookies before accessing the Aetheros platform.\n\nPlease do not hesitate to contact us if you have any further questions or concerns.\n\nBest regards,\nAetheros Support",
+        "thread_id": "aa011-f262960c-9d0a-4171-9dfa-a74f244041d2",
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API monitoring",
+            "IAM service"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.9495,
+        "email_types": [
+            "issue"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdc1e"
+        },
+        "subject": "Re: Urgent Issue: Unable to Assign Roles in IAM Service",
+        "sender": "john.doe@example.com",
+        "receiver": "support@aetheros.com",
+        "timestamp": "2023-10-27T14:21:58Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.4089,
+        "thread_id": "aa011-d21e984a-b661-4504-a5ef-90460d067a1c",
+        "message_body": "Hi,\n\nHere is the information you requested:\n\n* Organization ID: 87432\n* Role: Data Analyst\n* Username: jane.smith\n\nThis is really impacting our operations.  Please let me know when this will be resolved.\n\nThanks,\nJohn"
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b2600906"
+        },
+        "subject": "Re: Suggestion for API Monitoring Dashboard",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:01.456Z",
+        "message_body": "Dear John,\n\nThank you for your email and for your suggestion regarding the API Monitoring dashboard. We appreciate your feedback and value your input.\n\nWe understand the importance of having a comprehensive view of API performance, and we agree that displaying the minimum and maximum response times would be a valuable addition to the dashboard.\n\nWe have forwarded your suggestion to our product team for consideration in future updates.\n\nIn the meantime, please let us know if you have any other questions or feedback.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa008-f269a383-90ee-488f-9c7a-94482f332987",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.8934
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26008e6"
+        },
+        "subject": "Re: Mercury Language - Suggestion for IAM Integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:01Z",
+        "message_body": "Dear John,\n\nThank you for your thoughtful suggestion regarding integrating Mercury Language with our IAM service. We appreciate you taking the time to share your feedback.\n\nWe understand the value and efficiency such integration would bring to your development workflow. Our team will definitely take your suggestion into consideration as we plan for future updates to our services.\n\nWhile we can't promise immediate implementation, we want to assure you that we value your input and strive to constantly improve our products based on customer needs.\n\nShould you have any further suggestions or questions, please don't hesitate to contact us.\n\nSincerely,\nThe Aetheros Support Team",
+        "thread_id": "aa008-8b487634-0378-4f68-8e42-7c761a78591a",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language",
+            "IAM service"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": "-0.3933"
+    },
+    {
+        "_id": {
+            "$oid": "66607f13f018b325b2600595"
+        },
+        "subject": "Re: Urgent: Cloud deployment failing - API Gateway Timeout Errors",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:06Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Cloud management",
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": "-0.6066",
+        "thread_id": "aa003-f8d0437c-394c-4e33-8e74-54a7e9e60f55",
+        "message_body": "Dear John,\n\nOur engineers have identified the issue. There was a misconfiguration in the auto-scaling settings of your load balancer following the deployment of your API v2.3. This has been rectified, and your API should now be accessible. \n\nWe apologize for the inconvenience caused and appreciate your patience.\n\nWe'll be in touch shortly to schedule a follow-up to discuss this further and prevent similar issues in the future.\n\nBest Regards,\nAetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66630824bbd438f7cb545a56"
+        },
+        "subject": "Re: Suggestion for API Rate Limiting",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:08Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.3524,
+        "thread_id": "aa013-37d2143f-a59d-4899-9537-1005c96f017b",
+        "message_body": "Dear John,\n\nThank you for reaching out and sharing your valuable suggestion! We appreciate you taking the time to help us improve our services.\n\nWe understand the importance of rate limiting for API security and performance. We'll forward your suggestion to our development team for consideration in future updates. \n\nWhile we can't promise immediate implementation, we want to assure you that we value your feedback and are committed to providing the best possible API development solutions.\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb7c"
+        },
+        "subject": "Re: Urgent Issue with Role Assignment for New Team Members",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:10Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.4448,
+        "thread_id": "aa011-3a45ce71-a387-426d-8a80-e38973738b12",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand that you are experiencing issues with assigning roles in the IAM service. To better assist you, could you please provide us with the following information:\n\n* The specific error message you are encountering.\n* The steps you are taking to assign the roles.\n* The affected user accounts and roles.\n\nOnce we have this information, we will be able to investigate the issue further and provide you with a solution.\n\nBest regards,\nAetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb5d"
+        },
+        "subject": "Re: Suggestion for API Development - Improved Error Handling",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:15Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.1691,
+        "thread_id": "aa011-89e68a3b-317c-46d3-a434-9473b7d315ea",
+        "message_body": "Dear John,\n\nThank you for reaching out and for your valuable suggestion regarding our API error handling. We appreciate you taking the time to provide this feedback.\n\nWe understand the importance of detailed and informative error messages for a smooth developer experience. We're currently working on enhancing our error handling system to provide more context and guidance in error responses. Your suggestion aligns perfectly with our roadmap and will be incorporated into our development plans.\n\nWe'll keep you updated on the progress of this improvement.\n\nBest Regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b2600673"
+        },
+        "subject": "Re: Issue with Mercury Language - Unexpected Behavior with Async Calls",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:17Z",
+        "message_body": "Hi John,\n\nThank you for contacting Aetheros Support. We understand you're experiencing issues with async calls in Mercury. \n\nCan you please provide us with a code snippet illustrating how you're making these async calls? This will help us better understand the issue and provide a more accurate solution.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa006-98d8a48a-4e2b-478b-9150-a4f88d3e45ba",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": -0.4008
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b26006c1"
+        },
+        "subject": "Re: Mercury Language - Issue with Async Functionality",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:17Z",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.5126,
+        "thread_id": "aa006-4e3c32f4-8187-4d34-a474-0c0357622a18",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you're experiencing issues with the asynchronous functionality in Mercury.\n\nTo help us diagnose the problem, could you please provide us with the following information:\n\n* What version of Mercury are you currently using?\n* Could you share a more complete code example that demonstrates the issue?\n* Are there any specific error messages or logs that you are seeing?\n\nOnce we have this information, we'll be able to assist you further.\n\nBest regards,\nAetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdbff"
+        },
+        "subject": "Re: Inquiry about API Development for E-commerce Platform",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:17Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.8616,
+        "thread_id": "aa011-72d3e4c8-a837-4a2d-9441-7246d2a45aea",
+        "message_body": "Dear John,\n\nThank you for your interest in Aetheros API development services. We have extensive experience in building robust and scalable APIs for e-commerce platforms. \n\nWe will contact you shortly to schedule a meeting to discuss your specific requirements and provide you with a tailored proposal.\n\nBest regards,\nThe Aetheros Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f1ef018b325b26005b3"
+        },
+        "subject": "Re: Question about Mercury Language Syntax",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:18Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.1733,
+        "thread_id": "aa004-8675309a-1234-5678-9abc-def012345678",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support. We apologize for the delay in our response.\n\nWe understand you're having trouble with asynchronous requests in Mercury. Could you please provide a code snippet of what you're trying to achieve? This will help us understand your issue better and provide a more accurate solution.\n\nBest Regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b26008e4"
+        },
+        "subject": "Re: Inquiry about API Monitoring and IAM integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:18Z",
+        "message_body": "Hi John,\n\nThank you for your interest in our API monitoring and IAM services.\n\nWe're happy to confirm that both services are tightly integrated to offer the functionalities you described. \n\n1. **Automated Alerts based on IAM Events:** You can configure custom alerts within the API monitoring platform to be triggered by specific IAM events, including role changes, user creation, or permission modifications. Our documentation provides detailed steps on setting up these alerts: [link to documentation]\n\n2. **Role-Based Access Control for API Monitoring:**  You can leverage the roles and permissions defined within the IAM service to control access to API monitoring dashboards and metrics. This ensures that only authorized users can view sensitive information.\n\nFor a more in-depth understanding, we recommend exploring our API documentation, which provides detailed information on the integration points between these services: [link to API documentation]\n\nPlease let us know if you have any further questions. We're here to help!\n\nBest regards,\nAetheros Support",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "API monitoring",
+            "IAM service"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": -0.5746,
+        "thread_id": "aa008-f8049193-c61f-4756-9a88-5a6d18c22224"
+    },
+    {
+        "_id": {
+            "$oid": "66630824bbd438f7cb5459f6"
+        },
+        "subject": "Re: Urgent request for Aetheros platform integration guidance",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:22:18Z",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support. We understand you're facing challenges integrating our API development and cloud management services. We apologize for the delay in our response.\n\nWe've assigned a dedicated team to assist you. They'll be in touch within 72 hours to schedule a consultation and discuss your specific requirements and explore potential solutions.\n\nIn the meantime, we encourage you to explore our comprehensive documentation and tutorials on our website. These resources provide valuable insights and best practices for seamless integration.\n\nThank you for your patience and understanding.\n\nSincerely,\nAetheros Support Team",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development",
+            "Cloud management"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.6696,
+        "thread_id": "aa013-86e2c45f-495a-4276-9148-8574f378f894"
+    },
+    {
+        "_id": {
+            "$oid": "66607f4ef018b325b260089c"
+        },
+        "subject": "Re: Mercury Language Integration Issue with Existing Cloud Infrastructure",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:23:45.678Z",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support. We understand you're facing challenges integrating Mercury language with your cloud infrastructure. To better assist you, could you please provide more details about the specific issues you're encountering with the deployment pipelines?\n\nRegards,\nThe Aetheros Support Team",
+        "thread_id": "aa008-e21e346f-804c-4a49-987c-819894a21324",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "Mercury Language",
+            "Cloud management"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": 0.9991
+    },
+    {
+        "_id": {
+            "$oid": "66607f42f018b325b2600755"
+        },
+        "subject": "Re: Inquiry about API Development Services",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:30:00Z",
+        "message_body": "Hi John,\n\nThank you for your interest in our API development services. We'd be happy to discuss your specific needs and provide you with a tailored solution.\n\nCould you please tell us more about the existing systems you're looking to integrate with and the functionalities you envision for the custom API?\n\nBest regards,\nAetheros Support Team",
+        "thread_id": "aa007-123e4567-e89b-12d3-a456-426614174000",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.2809
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb5f"
+        },
+        "subject": "Re: Suggestion for Mercury Language: Enhanced Error Handling",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:30:00Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "Mercury Language"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.1995,
+        "thread_id": "aa011-86579c1b-70d8-489a-9d49-f0b381161872",
+        "message_body": "Dear John,\n\nThank you for your valuable feedback regarding error handling in Mercury. We understand that clear and informative error messages are crucial for efficient development.\n\nWe appreciate you taking the time to share your suggestions for improvement. We've forwarded your feedback to our development team for further consideration.\n\nIn the meantime, please don't hesitate to reach out if you have any other questions or suggestions. \n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66630362bbd438f7cb54592a"
+        },
+        "subject": "Re: Suggestion for Improving API Monitoring Dashboard",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:30:01Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": -0.5548,
+        "thread_id": "aa012-89e3c8d1-9d2b-4a14-940b-484716906d23",
+        "message_body": "Dear John,\n\nThank you for your valuable feedback regarding our API monitoring dashboard. We appreciate you taking the time to share your thoughts on how we can improve the user experience.\n\nWe completely understand the need for customization, especially when it comes to monitoring critical metrics. We've already started exploring different approaches to implement customizable dashboards, and your suggestion aligns perfectly with our roadmap.\n\nWhile we don't have a definite timeline for this feature release, we'll keep you updated on our progress.\n\nIn the meantime, please don't hesitate to reach out if you have any other suggestions or questions.\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66608331f018b325b2600940"
+        },
+        "subject": "Re: Scaling Issue and Role Permission Inconsistencies",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:30:45Z",
+        "message_body": "Dear John,\n\nThank you for contacting Aetheros Support.\n\nWe understand that you are experiencing scaling issues and inconsistencies with IAM role permissions. \n\nTo better assist you with the scaling issue, could you please provide us with more details about your current auto-scaling configuration and the specific metrics you're seeing during peak hours?\n\nRegarding the IAM issue, please provide specific examples of the roles, permissions, and resources affected so we can investigate further.\n\nWe look forward to your response.\n\nSincerely,\nAetheros Support Team",
+        "thread_id": "aa009-f81d4fae-7dec-11ed-a88c-0242ac120002",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "medium",
+        "product_types": [
+            "Cloud management",
+            "IAM service"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.5808
+    },
+    {
+        "_id": {
+            "$oid": "66608331f018b325b2600919"
+        },
+        "subject": "Re: Suggestion for Mercury Language and Cloud Management Integration",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:30:45Z",
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Cloud Management",
+            "Mercury Language"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.9693,
+        "thread_id": "aa009-7e0424b3-600c-481e-956b-3b5868d40749",
+        "email_types": [
+            "suggestion"
+        ],
+        "message_body": "Dear John,\n\nThank you for reaching out to us and sharing your valuable suggestion! We appreciate you taking the time to provide such detailed feedback.\n\nA deeper integration between Mercury and our Cloud Management service is indeed an intriguing concept. We understand the benefits it could bring to your workflow and how it aligns with our goal of providing a seamless and powerful development experience.\n\nWe have forwarded your suggestion to our product development team for their review and consideration in future roadmap planning.\n\nWhile we cannot promise immediate implementation, we want to assure you that we take all customer feedback seriously, and your input helps us to shape the future of our products.\n\nIn the meantime, please let us know if you have any other questions or suggestions. We're always happy to hear from you.\n\nSincerely,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "666202d61b4284eae85bdaed"
+        },
+        "subject": "Re: Suggestion for API Development: Enhancements for Error Handling",
+        "sender": "support@aetheros.com",
+        "receiver": "isabella.wilson@example.com",
+        "timestamp": "2023-10-27T14:30:45Z",
+        "message_body": "Dear Isabella,\n\nThank you for your valuable feedback regarding our API development services, particularly your suggestions for enhancing error handling. We greatly appreciate you taking the time to share your thoughts.\n\nWe understand the importance of detailed error messages and standardized error codes in simplifying the debugging process for developers. We're happy to inform you that we're actively working on implementing improvements in this area.\n\nOur team is currently designing a more robust error handling system that will provide more specific error codes and informative messages. This system will aim to offer greater transparency into the underlying issues, enabling developers to identify and resolve problems more efficiently.\n\nWe'll keep you updated on the progress of these enhancements. We expect to roll them out in the coming months.\n\nThank you once again for your suggestion. Your feedback helps us improve our services and better serve our clients.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa010-4d8d284d-0249-4e54-a3e0-1a115f3e7e46",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.7025
+    },
+    {
+        "_id": {
+            "$oid": "66607f42f018b325b26006fa"
+        },
+        "subject": "Re: Suggestion for API Monitoring Dashboard",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:30:51Z",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "completed",
+        "email_criticality": "low",
+        "product_types": [
+            "API development",
+            "API monitoring"
+        ],
+        "agent_effectivity": "very low",
+        "agent_efficiency": "very high",
+        "customer_satisfaction": -0.4622,
+        "thread_id": "aa007-4d54c29d-e62a-406d-8295-2c4f5898a6c7",
+        "message_body": "Dear John,\n\nThank you for your email and your suggestion for the API Monitoring dashboard. We appreciate you taking the time to provide feedback.\n\nWe understand the importance of customization and agree that the ability to tailor the dashboard to specific needs would be highly beneficial. We have taken your suggestion on board and will be reviewing the feasibility of implementing customizable widgets in future updates to the platform.\n\nWe will keep you informed of any developments regarding this feature.\n\nIn the meantime, if you have any other suggestions or encounter any issues, please don't hesitate to contact us.\n\nSincerely,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdc6d"
+        },
+        "subject": "Re: Urgent issue with Mercury Language compiler - Production system down!",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:31:02Z",
+        "message_body": "Thank you for providing the information. We have identified the issue and are working on a fix. We will keep you updated on the progress.",
+        "thread_id": "aa011-4d5f7561-a7d7-4297-9e30-7f52691c242b",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "Mercury Language",
+            "API Monitoring"
+        ],
+        "agent_effectivity": "low",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.9827
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdb4f"
+        },
+        "subject": "Re: IAM Role Inheritance Issue",
+        "sender": "harvey.davies@example.net",
+        "receiver": "support@aetheros.com",
+        "timestamp": "2023-10-27T14:31:17.965Z",
+        "message_body": "Hi Support Team,\n\nHere's the information you requested:\n\n* **Role A:** Data Analyst\n* **Role B:** Data Scientist\n\nI've attached a screenshot of the role configuration. The issue started yesterday around 2 PM UTC.\n\nLet me know if you need anything else.\n\nThanks,\nHarvey",
+        "thread_id": "aa011-89e28c2b-4d51-4762-a204-3f41062b2c4f",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "IAM service"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": 0.2999
+    },
+    {
+        "_id": {
+            "$oid": "66607f2cf018b325b26005f7"
+        },
+        "subject": "Re: Urgent: API Monitoring - Extremely High Latency Spikes",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:31:19Z",
+        "message_body": "Dear John,\n\nWe identified an issue within our API Monitoring system that was causing the latency spikes you experienced. This issue has been addressed, and our monitoring indicates that API performance has returned to normal levels.\n\nWe sincerely apologize for the inconvenience caused by this outage.  We are committed to providing a reliable and performant service and are taking steps to prevent similar incidents from occurring in the future.\n\nIf you continue to experience any issues or have further questions, please don't hesitate to contact us. \n\nSincerely,\nAetheros Support Team",
+        "email_types": [
+            "issue"
+        ],
+        "email_status": "completed",
+        "email_criticality": "high",
+        "product_types": [
+            "API monitoring"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": 0.1187,
+        "thread_id": "aa005-d5f8e2d1-5724-416e-940d-e03138948d63"
+    },
+    {
+        "_id": {
+            "$oid": "66607f2cf018b325b2600621"
+        },
+        "subject": "Re: URGENT: Mercury Language Integration with IAM Permissions Issue",
+        "sender": "john.doe@example.com",
+        "receiver": "support@aetheros.com",
+        "timestamp": "2023-10-27T14:31:58Z",
+        "message_body": "Hi Aetheros Support,\n\nWe've gathered the requested information:\n\n* Mercury Language SDK Version: 1.2.3\n* Code Snippet: [Link to code snippet]\n* IAM Role Configurations: [Attached JSON file]\n\nWe've also tried upgrading to the latest version of the Mercury SDK, but the issue persists. It seems there might be an underlying incompatibility with the current IAM authorization model.\n\nPlease let us know your findings and the next steps to resolve this critical issue. \n\nThanks,\nJohn",
+        "thread_id": "aa005-7e7b4139-2089-4394-8291-d80400290a79",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "high",
+        "product_types": [
+            "Mercury Language",
+            "IAM service"
+        ],
+        "agent_effectivity": "medium",
+        "agent_efficiency": "high",
+        "customer_satisfaction": 0.4632
+    },
+    {
+        "_id": {
+            "$oid": "666202e31b4284eae85bdc22"
+        },
+        "subject": "Re: Inquiry about IAM service integration with Mercury Language",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:32:00Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "IAM service",
+            "API development",
+            "Mercury Language"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "medium",
+        "customer_satisfaction": -0.692,
+        "thread_id": "aa011-e34f821c-6d8a-4755-a219-2504a3127f50",
+        "message_body": "Dear John,\n\nThank you for your interest in Aetheros! We understand you'd like to know more about integrating our IAM service with Mercury for API development.\n\nWe have detailed documentation and tutorials available that cover this specific integration. You can access them here:\n[Link to documentation]\n\nThese resources should provide a comprehensive overview and practical examples. If you have any further questions or require more specific guidance, please don't hesitate to ask.\n\nBest regards,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f2cf018b325b26005ce"
+        },
+        "subject": "Re: Inquiry about API Development and Rate Limiting",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:32:01Z",
+        "message_body": "Hello John,\n\nThank you for your interest in Aetheros! We appreciate you considering our services.\n\nWe've received your inquiry and will get back to you with more information about rate limiting within 2-3 business days.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa005-8f852d6d-c850-4a78-a5a7-3c70388840d4",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "completed",
+        "email_criticality": "medium",
+        "product_types": [
+            "API development"
+        ],
+        "agent_effectivity": "very high",
+        "agent_efficiency": "very low",
+        "customer_satisfaction": -0.4133
+    },
+    {
+        "_id": {
+            "$oid": "66607f2cf018b325b26005da"
+        },
+        "subject": "Re: Question about API Monitoring Role Permissions",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:32:01Z",
+        "email_types": [
+            "inquiry"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "low",
+        "product_types": [
+            "IAM service",
+            "API monitoring"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "low",
+        "customer_satisfaction": "-0.6551",
+        "thread_id": "aa005-34e45j45-f842-4a4f-8b7d-9a6657d43210",
+        "message_body": "Dear John,\n\nThank you for reaching out to Aetheros Support. We understand you're looking for more information regarding role-based access control for API Monitoring dashboards.\n\nTo better assist you, could you please provide us with more context on your current setup?  Specifically, what type of subscription do you have with Aetheros, and have you already begun defining custom roles within our IAM service?\n\nOnce we have a clearer understanding of your needs, we can guide you through the appropriate steps to achieve the desired permissions for your API Monitoring dashboards. \n\nSincerely,\nThe Aetheros Support Team"
+    },
+    {
+        "_id": {
+            "$oid": "66607f37f018b325b2600639"
+        },
+        "subject": "Re: Suggestion: Mercury Language Enhancement for Streamlined API Error Handling",
+        "sender": "support@aetheros.com",
+        "receiver": "john.doe@example.com",
+        "timestamp": "2023-10-27T14:32:01Z",
+        "message_body": "Dear John,\n\nThank you for your thoughtful suggestion regarding enhancing Mercury's error handling capabilities. We recognize the importance of robust and streamlined error handling in API development.\n\nWe appreciate you outlining the specific areas where improvements could be made. The ability to define custom error types, implement structured exception handling, and generate consistent error responses are all valuable features that would enhance the developer experience.\n\nOur team will be discussing your proposal internally to assess its feasibility and potential integration into future versions of the Mercury language.\n\nWe value your feedback and will keep you updated on any progress related to this suggestion.\n\nBest regards,\nThe Aetheros Support Team",
+        "thread_id": "aa006-e8c73e9c-4f5b-4808-b0c1-725e79555f87",
+        "email_types": [
+            "suggestion"
+        ],
+        "email_status": "ongoing",
+        "email_criticality": "high",
+        "product_types": [
+            "Mercury Language",
+            "API Development"
+        ],
+        "agent_effectivity": "high",
+        "agent_efficiency": "high",
+        "customer_satisfaction": -0.5331
+    }
+]

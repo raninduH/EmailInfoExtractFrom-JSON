@@ -1,0 +1,566 @@
+[
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600892"
+    },
+    "subject": "Issue with Null Pointer Exception in Mercury Lambda Function",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T08:00:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm encountering a Null Pointer Exception when trying to access a database connection within a Mercury lambda function. I've verified the connection string and it seems correct. \n\nHere's a snippet of the code:\n\n```mercury\nlet dbConnection = Database.connect(connectionString);\nlet result = dbConnection.query(\"SELECT * FROM users\");\n```\n\nThe exception is thrown on the `dbConnection.query` line. \n\nCould you please help me troubleshoot this issue?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-550e8400-e29b-41d4-a716-446655440000",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.3027
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600884"
+    },
+    "subject": "Suggestion for Mercury Language Error Handling",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T08:38:00Z",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development",
+      "Mercury language"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.4872,
+    "thread_id": "aa008-4d84c46e-a558-462f-962a-a30517c62d1f",
+    "message_body": "Hi Aetheros Support Team,\n\nI'm writing to suggest an improvement to the Mercury language's error handling. While I appreciate the simplicity of the current error system, I believe it could benefit from more detailed error messages and potentially different error types. This would greatly assist in debugging and troubleshooting API issues. \n\nFor instance, when an API call fails, it would be helpful to receive an error message that not only indicates the general failure but also specifies the reason, such as invalid input parameters, database connection issues, or authentication problems. Different error types for these scenarios would make it easier to write targeted error handling code.\n\nI believe this enhancement would significantly improve the developer experience and make Mercury even more powerful for building robust and reliable APIs.\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600895"
+    },
+    "subject": "Cloud Costs Higher Than Expected",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T08:58:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI've noticed that our cloud costs have been significantly higher than expected over the past few months. We're using your Cloud Management service and were hoping you could provide some insight into what might be driving these costs.\n\nIs there a way to get a more detailed breakdown of our resource usage?  Perhaps some recommendations for optimization?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-8e277a81-c690-4e3f-a136-3086b1147ac2",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.7195
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008a3"
+    },
+    "subject": "Urgent: API Gateway Latency Issues Impacting Production",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T09:49:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "API development",
+      "Cloud management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.5105,
+    "thread_id": "aa008-d4b689c0-90d6-452e-8439-6d8020574813",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing significant latency with our API gateway hosted on your platform. This issue began approximately around [Start Time] and is impacting our production environment.\n\nHere are some details:\n\n* Affected API endpoints: [List of endpoints or general pattern]\n* Expected response time: [Expected response time]\n* Current response time: [Current response time, highlight the difference]\n* Frequency: [Is this constant or intermittent?]\n\nWe are utilizing your cloud management and API development services. We need this resolved urgently as it's causing disruptions to our service. Please advise on the next steps and estimated resolution time.\n\nRegards,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008aa"
+    },
+    "subject": "Mercury Language Integration Issue with IAM Roles",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T10:43:00Z",
+    "message_body": "Hello Aetheros Support,\n\nI'm experiencing an issue integrating Mercury language functions with our IAM service. \nSpecifically, I'm trying to implement role-based access control to certain API endpoints defined in Mercury, but the IAM roles don't seem to be recognized within the Mercury code. \n\nIs there a specific configuration needed for this integration to work correctly? I've followed the documentation, but I might be missing something. \n\nAlso, I've noticed some inconsistencies in the API monitoring dashboard related to these calls.  Sometimes they appear, sometimes not. Could this be related?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-d2e9f53c-4e4e-4471-846b-6d198511564a",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language",
+      "API Monitoring",
+      "IAM Service"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.3135
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600886"
+    },
+    "subject": "Scaling Issue with Cloud Resources",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T11:36:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing some difficulties scaling our cloud resources through your platform recently. Our application experiences unpredictable slowdowns during peak hours, and we suspect it's linked to resource limitations.\n\nCould you please look into this? We'd appreciate any assistance in optimizing our scaling configuration.\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-89e6f61f-8057-4a34-8518-5a71f45085d8",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.6418
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b260088a"
+    },
+    "subject": "Suggestion for Mercury Language Error Reporting",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T11:42:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm writing to suggest an improvement to the error reporting in Mercury Language. Currently, the error messages can be a bit cryptic and difficult to debug, especially when working with the API monitoring integration.\n\nIt would be incredibly helpful if the error messages could be more verbose and include:\n\n* **Context:**  The specific line of code or function where the error occurred.\n* **Possible Causes:** A brief explanation of what might have caused the error.\n* **Suggested Solutions:**  Potential fixes or workarounds for the error.\n\nThis would significantly speed up our development process and reduce the time spent on debugging. Thanks for considering this suggestion!\n\nSincerely,\nJohn Doe",
+    "thread_id": "aa008-e306f566-a533-476c-a246-2736c140487b",
+    "email_types": [
+      "suggestion"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring",
+      "Mercury Language"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.0675
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008b7"
+    },
+    "subject": "Urgent: Cloud resources scaling issue and IAM role inconsistency",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T11:44:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe're experiencing two critical issues with your services:\n\n1. **Cloud Resources Scaling:** Our application is experiencing intermittent performance degradation, and we suspect it's due to inadequate scaling of our cloud resources. We need immediate assistance in diagnosing and resolving this issue to avoid further service disruptions.\n\n2. **IAM Role Inconsistency:** We're facing difficulties with user permissions. Some users with the appropriate roles are unable to access specific resources. We need help verifying and potentially adjusting our IAM roles to ensure proper access control.\n\nPlease advise on the next steps to address these urgent matters.\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-3f4e573a-4146-4a6b-a380-3e488f798285",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "Cloud management",
+      "IAM service"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very low",
+    "customer_satisfaction": 0.0266
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008d6"
+    },
+    "subject": "Intermittent Latency Spikes with API on Cloud Platform",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T11:53:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent latency spikes with our API hosted on your cloud platform over the past few days. These spikes are significantly impacting our application's performance and causing disruptions for our users.\n\nWe've checked our application logs and haven't been able to identify any specific triggers for these latency issues. We're using your API monitoring service, but it hasn't provided any clear insights into the root cause of these spikes.\n\nCould you please investigate this issue urgently and provide assistance in identifying and resolving the underlying problem?\n\nThanks,\nJohn Doe",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "API monitoring",
+      "Cloud management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.1237,
+    "thread_id": "aa008-e8c93a47-9649-4f2b-a707-26841385f214"
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008c6"
+    },
+    "subject": "API Monitoring - Latency Spikes in Production",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T12:19:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe've been experiencing intermittent latency spikes with our production API that's being monitored by your platform. These spikes don't seem to follow a pattern and are impacting our application performance.\n\nCould you please investigate this and advise on any potential solutions or configurations we might need to adjust?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-34e70d7f-8a52-422b-a65c-2f8896324a1b",
+    "email_types": [
+      "inquiry"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.8113
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b2600902"
+    },
+    "subject": "URGENT: API Monitoring Showing Downtime, Users Locked Out",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T12:30:00Z",
+    "message_body": "Our API monitoring dashboard is showing all services are down, and we're getting reports that users are unable to log in. This seems to be related to both our API and IAM service. This is a critical issue affecting our entire platform. Please advise ASAP.",
+    "thread_id": "aa008-8f36356c-138d-4c1f-9674-e5a2f036c76a",
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring",
+      "IAM service"
+    ],
+    "agent_effectivity": "very high",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.1417,
+    "email_types": [
+      "issue"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008d2"
+    },
+    "subject": "Urgent issue with IAM role assignment",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T13:02:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe're experiencing a critical issue with IAM role assignment.  We can't assign the necessary permissions to our new DevOps engineer, which is blocking our deployment process entirely.\n\nWe've tried reassigning the role, but we're still encountering the same error.  We need this resolved ASAP as it's impacting our production environment.\n\nPlease advise on how to proceed.\n\nThanks,\nJohn Doe",
+    "thread_id": "aa008-72d780e0-c425-4816-93d5-0a5654542222",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.61
+  },
+  {
+    "_id": {
+      "$oid": "66607f4ef018b325b26008f2"
+    },
+    "subject": "URGENT: Users randomly losing roles in IAM",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T14:01:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "medium",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": 0.7486,
+    "thread_id": "aa008-8f44a719-223a-4c40-a6d3-624662e282b9",
+    "message_body": "We are experiencing a critical issue with the Aetheros IAM service.  Users are randomly losing their assigned roles, causing major disruptions to our workflows.  This is happening across different departments and seems to occur at random times.\n\nWe need this addressed immediately. Please advise on any potential causes and solutions."
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b260092f"
+    },
+    "subject": "Urgent: Mercury code deployment failing on Aetheros Cloud",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T14:57:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm having trouble deploying my Mercury code to the Aetheros Cloud. I'm getting a generic error message that doesn't provide any helpful information.\n\nHere's what I've tried so far:\n- Double-checked my code for errors\n- Verified my cloud resource configurations\n- Restarted my deployment pipeline\n\nNothing seems to be working. Could you please help me resolve this issue as soon as possible?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa009-e4847783-950c-4a7a-871b-a558296a4858",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language",
+      "Cloud Management"
+    ],
+    "agent_effectivity": "very low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": -0.9415
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b2600910"
+    },
+    "subject": "Urgent: API Monitoring Showing False Positives - Impacting Live Service",
+    "sender": "john.smith@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T15:34:00Z",
+    "message_body": "We are experiencing a critical issue with the API monitoring service. We are receiving a large number of false positive alerts, indicating our API is down when it is not. This is causing significant confusion and disruption as we are having to manually verify each alert.  We rely heavily on your service for real-time monitoring, and this issue is impacting our live service and customer experience. Please advise on a resolution as soon as possible.\n\nRegards,\nJohn Smith",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring",
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.9534,
+    "thread_id": "aa009-e283581c-9a2c-4b8b-a766-58038c24a842"
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b2600923"
+    },
+    "subject": "Mercury Language - Null Pointer Exception in Concurrent Requests",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T15:50:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nWe are experiencing a persistent issue with our application built using the Mercury language.  We are encountering Null Pointer Exceptions specifically when handling concurrent requests.  This is creating instability and errors for our users.\n\nWe've tried debugging on our end, but the nature of the issue makes it difficult to pinpoint the root cause. Could you provide some guidance or insights into how to approach this problem in the context of Mercury's concurrency model?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa009-7e2c422c-3792-488e-a25f-4224c8b2802a",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "Mercury Language"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.5138
+  },
+  {
+    "_id": {
+      "$oid": "66608331f018b325b260091e"
+    },
+    "subject": "Urgent Issue: Mercury Language Permissions and API Integration Failure",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T15:54:00Z",
+    "message_body": "We are facing a critical issue with our Aetheros implementation. We are unable to successfully call our custom API using the Mercury language.  The error message indicates a permissions issue, but we have confirmed the user roles and permissions in the IAM service are correctly configured. This is blocking a major product launch and needs immediate attention.",
+    "thread_id": "aa009-8f55d778-4542-4a29-a87f-122171357234",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "Mercury Language",
+      "IAM service",
+      "API development"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.642
+  },
+  {
+    "_id": {
+      "$oid": "666202d61b4284eae85bdae2"
+    },
+    "subject": "Urgent Issue: Role assignment not working",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T16:00:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.2961,
+    "thread_id": "aa010-550e8400-e29b-41d4-a716-446655440000",
+    "message_body": "Hi Aetheros Support,\n\nWe are having an urgent issue with the role assignment feature in your IAM service. We are unable to assign specific roles to new users, and it's impacting our operations.\n\nWe have tried the following:\n* Double-checked the role permissions.\n* Ensured the users are in the correct groups.\n* Logged out and back into the system.\n\nHowever, the issue persists. Could you please look into this urgently?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb0d"
+    },
+    "subject": "URGENT: API Monitoring - No Data & Alerts Not Firing",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T16:18:00Z",
+    "message_body": "Our team has been experiencing a critical issue with Aetheros API Monitoring for the past few hours. \n\nWe are not seeing any data populated in the dashboard and, more concerningly, alerts configured for critical endpoints are not firing. \n\nThis is causing major disruption to our services as we lack visibility and are flying blind on potential issues. \n\nPlease advise on the situation and steps for immediate resolution ASAP.",
+    "thread_id": "aa011-e318a760-8929-418c-a96c-70772a170a19",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "high",
+    "agent_efficiency": "very high",
+    "customer_satisfaction": -0.2811
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb17"
+    },
+    "subject": "Mercury Language Role Permissions Issue",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T16:32:00Z",
+    "message_body": "Hi Aetheros Support,\n\nI'm having trouble setting specific role permissions within the Mercury language for a new API I'm developing. I've defined roles in the IAM service, but I can't seem to link them effectively within the Mercury code. \n\nIs there specific syntax I'm missing, or is there a discrepancy between the IAM service and Mercury language integration?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-8934e1d7-29e3-4736-9a77-f21f5229346a",
+    "email_status": "completed",
+    "email_criticality": "low",
+    "product_types": [
+      "IAM service",
+      "Mercury language"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "high",
+    "customer_satisfaction": 0.2338,
+    "email_types": [
+      "issue"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb32"
+    },
+    "subject": "Urgent: Security Group Misconfiguration Preventing Deployment",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T16:38:00Z",
+    "message_body": "Hi Aetheros Support,\n\nWe're experiencing an urgent issue where our deployments are failing due to what seems like a misconfigured security group in our Cloud Management environment. \n\nSpecifically, instances are unable to reach our database server. We believe the security group attached to our database instance may be blocking traffic from the application instances.\n\nWe also need to immediately add a new user to our IAM service with specific access to manage only the cloud resources, but the IAM interface seems to be unresponsive.\n\nCould you please investigate this as a top priority?\n\nThanks,\nJohn Doe",
+    "thread_id": "aa011-f44a21a1-30e8-4d0c-a298-85543d8a8c61",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "high",
+    "product_types": [
+      "IAM service",
+      "Cloud management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.5362
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb54"
+    },
+    "subject": "Urgent Issue: Unable to Assign New Roles in IAM Service",
+    "sender": "isiah_ritchie@example.net",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T17:15:00Z",
+    "message_body": "Hi Aetheros Support Team,\n\nI am experiencing an urgent issue with the IAM service. I am unable to assign new roles to users within our organization. \n\nI have tried multiple browsers and cleared my cache, but the issue persists. This is severely impacting our workflow as new team members cannot access the resources they need.\n\nCould you please investigate this issue as soon as possible and provide a solution?\n\nThank you,\nIsiah Ritchie",
+    "thread_id": "aa011-3d1e6472-e691-4803-8143-a457834d42b3",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "completed",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "medium",
+    "customer_satisfaction": 0.8501
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb76"
+    },
+    "subject": "Urgent: API Monitoring - Huge spike in errors and latency!",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T17:55:00Z",
+    "message_body": "We're experiencing a major issue with one of our APIs being monitored by your platform.  We're seeing a massive spike in 500 errors and the latency has gone through the roof in the last hour. This is impacting our live customers and needs immediate attention!\n\nCan you please investigate ASAP and advise on the next steps?",
+    "thread_id": "aa011-e7f1c84d-b585-4f36-974d-d5f27e2a6393",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "API monitoring"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": "-0.4089"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb7b"
+    },
+    "subject": "Urgent Issue with Role Assignment for New Team Members",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T18:09:00Z",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "medium",
+    "product_types": [
+      "IAM service"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": 0.4448,
+    "thread_id": "aa011-3a45ce71-a387-426d-8a80-e38973738b12",
+    "message_body": "Hi Aetheros Support,\n\nWe are facing an urgent issue with assigning roles to our new team members within the IAM service. The roles appear to be correctly defined, but the system is throwing an error during assignment.\n\nCould you please assist us in resolving this issue as soon as possible, as it's preventing our new hires from accessing critical resources?\n\nThanks,\nJohn Doe"
+  },
+  {
+    "_id": {
+      "$oid": "666202e31b4284eae85bdb7e"
+    },
+    "subject": "Urgent: Production Deployment Failing - Cloud Management",
+    "sender": "john.doe@example.com",
+    "receiver": "support@aetheros.com",
+    "timestamp": "2024-07-09T18:50:00Z",
+    "message_body": "We are experiencing a critical issue with Aetheros Cloud Management. Our production deployment is failing, and we are unable to identify the root cause. The error messages are not helpful. \n\nWe have tried restarting the affected services and checking our configurations, but nothing seems to work. This is causing a major outage for our application, and we need urgent assistance. \n\nPlease let us know what information you need to help us resolve this issue as quickly as possible.",
+    "thread_id": "aa011-8e786d8a-75d2-4c35-914f-3d8a8b8c8b8c",
+    "email_types": [
+      "issue"
+    ],
+    "email_status": "ongoing",
+    "email_criticality": "high",
+    "product_types": [
+      "Cloud management"
+    ],
+    "agent_effectivity": "low",
+    "agent_efficiency": "low",
+    "customer_satisfaction": -0.1064
+  }
+]
